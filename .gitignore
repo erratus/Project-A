@@ -1,0 +1,8 @@
+.env
+/Embedding/__pycache__
+/Extraction/__pycache__
+/chroma_db_jd
+/chroma_db_resume
+/env
+/resume_json
+/JD_extraction

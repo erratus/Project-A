@@ -1,0 +1,10 @@
+python-docx 
+PyPDF2 
+python-pptx
+chromadb
+sentence_transformers
+nltk
+PyMuPDF
+pdfplumber
+tranformers
+tokenizers

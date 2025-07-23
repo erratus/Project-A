@@ -1,0 +1,44 @@
+Compare the following resume and job description using their parsed field data.
+
+Each field below is populated from the database. Compare them **semantically and intelligently** using the structure below.
+
+Use the following strict JSON format:
+
+{{
+  "{resume_filename}": {{
+    "Skills": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "Education": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "Job Role": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "Experience": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "OverallMatchPercentage": float,
+    "why_overall_match_is_this": string,
+    "AI_Generated_Estimate_Percentage": float
+  }}
+}}
+
+Return only the JSON object, and ensure:
+- match_pct values reflect real semantic similarity (not keyword count).
+- Explanations are professional, specific, and insightful.
+- No nested JSON objects inside any value fields.
+- No semicolons (;) in values — use periods or commas.
+- No hallucinated info or missing keys.
