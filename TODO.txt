@@ -1,0 +1,4 @@
+resume->JSON->A
+jd->jSON->B
+A and B are comapared to return match percentage of each resume to jd
+highly reproducible
