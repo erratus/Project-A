@@ -1,0 +1,42 @@
+{
+  "skill": [
+    "Azure Databricks",
+    "Deep Learning",
+    "Generative AI",
+    "Large Language Models",
+    "LLMs",
+    "Machine Learning",
+    "Market Research Analytics",
+    "NLP",
+    "Python",
+    "Sentiment Analysis",
+    "Social Media Analytics",
+    "Social Media Research",
+    "SQL",
+    "Text Analytics",
+    "Web Scraping"
+  ],
+  "education": [
+    "Post Graduate Diploma in Data Science from Manipal Academy of Higher Education",
+    "Bachelors of Technology in Computer Science and Engineering from DR. APJ ABDUL KALAM TECHNICAL UNIVERSITY"
+  ],
+  "experience": [
+    "Data Scientist at Gartner, Oct 2021\u2013Jan 2025 \u2014 Led and expanded the Country Localization initiative across key non-English-speaking regions, integrating localized PESTLE insights into sales strategies and contributing to a 5% uplift in regional revenue. Optimized research workflows by transitioning from Python scripts to Azure Databricks and built GenAI pipelines using LLMs (Mistral, OpenAI), LangChain for chunking, and prompt engineering for insights from Talkwalker and LinkedIn APIs. Delivered fast-turnaround GenAI-powered social media insights for 12 research notes, collaborating with the Chief of Research and Knowledge & Insights Leaders across practices like I&O, Software, and AI. Mentored three associates on advanced text analytics, strengthening the teams expertise and also worked on cross team collaboration for company know L&D project that won best project award. Secured the Content Excellence Award for contributing high-quality research supporting talent and event-based quick turnaround projects.",
+    "Data Science Specialist at Gartner \u2014 Led the shift from traditional to analytics-driven research by conducting knowledge-sharing sessions and developing reusable NLP frameworks (like Topic Modeling, Sentiment Analysis, Translation), accelerating team-wide adoption of modern research methodologies. Conducted coverage analysis to assess supply-demand alignment, leveraging FAISS, BERT-based models, Text Similarity, and Clustering techniques to enhance content planning. Led the planning and execution of a cross-functional vertical-level sports event with 35 participants, enhancing leadership engagement and team collaboration. Recognized with the Best Promising Newcomer award for impactful contributions across analytics enablement, technical innovation, and cross-functional initiatives.",
+    "Data Analyst at Virtue Analytics, Mar 2021\u2013Oct 2021 \u2014 Gathered and processed large-scale raw data, including web scraping and scripting in Python, to enable data-driven decision-making. Applied machine learning techniques to predict scholarship eligibility and need-based aid, based on student scores and expected family contributions."
+  ],
+  "job role": [
+    "Data Scientist"
+  ],
+  "other information": [
+    "Generative AI with Large Language Models certification from DeepLearning.AI, Coursera",
+    "SQL FOR DATA SCIENCE certification from UC Davis, Coursera",
+    "Python Basic certification from HackerRank",
+    "Known for building reusable frameworks (e.g. Sentiment Analysis, Topic Modeling), enabling data-first practices, and contributing to GenAI-driven research automation and strategic analytics.",
+    "Relocated to new roles at Gartner and Virtue Analytics.",
+    "Mentored three associates on advanced text analytics, strengthening the teams expertise.",
+    "Worked on cross team collaboration for company know L&D project that won best project award.",
+    "Recognized with the Best Promising Newcomer award for impactful contributions across analytics enablement, technical innovation, and cross-functional initiatives.",
+    "Secured the Content Excellence Award for contributing high-quality research supporting talent and event-based quick turnaround projects."
+  ]
+}

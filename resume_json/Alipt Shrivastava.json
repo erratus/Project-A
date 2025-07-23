@@ -1,0 +1,72 @@
+{
+  "skill": [
+    "Python",
+    "Terraform",
+    "classification models",
+    "Conversational AI",
+    "Retrieval-Augmented Generation (RAG)",
+    "LangChain",
+    "LLM fine-tuning",
+    "LangChain orchestration",
+    "lang graph",
+    "vector search",
+    "prompt engineering",
+    "Devops",
+    "MLOPS",
+    "AWS (SageMaker, Bedrock)",
+    "Docker",
+    "CI/CD",
+    "cloud-based AI deployments",
+    "Supervised & Unsupervised Learning",
+    "Deep Learning",
+    "NLP",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "Langchain",
+    "Retrieval-Augmented Generation (RAG)",
+    "Computer Vision",
+    "EDA",
+    "Feature Engineering",
+    "vector search databases",
+    "Azure",
+    "AWS (Lambda, ECS, API Gateway, S3, DynamoDB, RDS, Bedrock, SageMaker)",
+    "Terraform",
+    "Docker",
+    "CI/CD",
+    "Git",
+    "Jira",
+    "Concourse CI/CD",
+    "Jenkins",
+    "MySQL",
+    "PostgreSQL",
+    "NoSQL (DynamoDB)",
+    "FAISS",
+    "Pinecone",
+    "Chroma",
+    "Astra DB",
+    "HuggingFace",
+    "RecursiveCharacterTextSplitter",
+    "Zero-Shot ReAct",
+    "Few-Shot CoT",
+    "LangGraph",
+    "CrewAI",
+    "PEFT",
+    "SFT",
+    "CNN",
+    "LSTM-RNN",
+    "genetic algorithm",
+    "Pearsons Correlation Coefficient"
+  ],
+  "education": [
+    "B.Tech. in Computer Science from Madhav Institute of Technology & Science"
+  ],
+  "experience": [
+    "Machine Learning Engineer | Fidelity International (2022 - Present) \u2014 Developed a Random Forest Classifier model to classify network risk zones, improving security accuracy to 94% and created a xgboost model to recommend firewall deployment with a 96% accuracy rate. Automated firewall rule generation, reducing manual effort by 80% and deployment time by 60%. Integrated continuous monitoring & feedback loops, retraining models for adaptive security enhancements. Developed an advanced multi-agent chatbot system leveraging LangChain and multiple state-of-the-art LLMs (GPT-4, Claude 3.5 Sonnet, Gemma2-9b-IT, and Mistral) for robust, general-purpose information retrieval. Integrated RAG-based Q&A using vector databases including FAISS, Pinecone, Chroma, and Astra DB to support context-aware, document-driven conversations across enterprise knowledge bases. Utilized HuggingFace embeddings and RecursiveCharacterTextSplitter for efficient chunking and semantic search optimization over a large corpus of enterprise documents. Designed and deployed intelligent multi-agent workflows using LangChain Agents (Zero-Shot ReAct, Few-Shot CoT) and agentic orchestration frameworks like LangGraph and CrewAI to facilitate modular task delegation and dynamic tool usage. Built a software tool for automating CISCO-ACI switch configurations, enhancing network efficiency by 30%. Created an automation solution for DNS record creation, reducing errors and improving accuracy by 95%. Developed a stock market prediction model using LSTM-RNN, achieving MSE = 0.032. Utilized genetic algorithm for hyperparameter tuning and Pearsons Correlation Coefficient for feature selection Lead data preprocessing & feature engineering, ensuring improved model efficiency. Developed a CNN-based model for human emotion recognition, enhancing classification accuracy."
+  ],
+  "job role": [
+    "Machine Learning Engineer"
+  ],
+  "other information": [
+    "AWS Certified Cloud Practitioner, Qualified GATE 2022, Machine Learning Bootcamp iNeuron, Generative AI with langchain and huggingface krishai technologies private limited"
+  ]
+}
