@@ -1,0 +1,374 @@
+{
+  "comparison_type": "embedding_based",
+  "timestamp": "2025-07-24 12:46:07",
+  "processing_time_seconds": 2293.72,
+  "total_resumes": 7,
+  "total_jds": 1,
+  "total_matches_above_threshold": 7,
+  "similarity_threshold": 0.3,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "top_matches": [
+    {
+      "rank": 1,
+      "resume_id": "SurajSingh_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.7110694036463134,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.375,
+          "resume_value": "python, langchain, sql, generative ai, scikit-learn, llm, docker, machine learning, rag, pandas, aws",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 3 overlapping skills out of 8 required skills. Embedding similarity: 0.7111"
+        },
+        "Education": {
+          "match_pct": 0.6044089930993664,
+          "resume_value": "Bachelor of Technology from PDM College of Engineering, Class XII from CBSE, Class X from CBSE",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.7111). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.6755159334639977,
+          "resume_value": "Data Scientist",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.7111). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.6399624632816822,
+          "resume_value": "Data Scientist at To The New | 11/2022 Present — Led AI/ML model development and Generative AI (GenAI) applications, delivering scalable solutions using LLMs, RAG, forecasting, and classification models across cloud infrastructure, finance, compliance, and operational domains., QA Automation Engineer at Indus Valley Partners | 05/2020 11/2022 — Transitioned from Quality Assurance to Data Science within fintech data platforms, ensuring data integrity and system stability before designing predictive models and analytical dashboards for financial decision-making., Data Scientist at Newi Intelligent Assistant | 01/2025 Present — Developed a GenAI-powered enterprise assistant using LLM-based autonomous agents to streamline operations across HR, IT, and Compliance., Data Scientist at PWC-GSTR Project | 11/2023 12/2024 — Developed an intelligent GST compliance and reconciliation system for automating return filing, transaction validation, and data verification across ERP platforms like SAP, Oracle, and MS Dynamics., Data Scientist at AWS Spot Prediction Project | 12/2022 10/2023 — Developed a machine learning-based prediction system to forecast AWS Spot Instance terminations, enabling proactive autoscaling and reducing infrastructure disruptions., Data Scientist at Data Warehouse Polaris | 06/2022 11/2022 — Worked on a financial data warehousing solution designed for hedge funds and asset managers to improve analytics, reporting, and strategic decision-making., QA Automation Engineer at Security and Reference Master | 05/2020 05/2022 — Contributed to feature validation, release planning, and quality assurance for 50+ modules spanning data creation, update, and entity search workflows, ensuring end-to-end product reliability.",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.7111). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.6399624632816822,
+        "why_overall_match_is_this": "Overall match of 64.0% based on embedding similarity (0.7111). Found 3 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.7110694036463134,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "source": "SurajSingh_Sr. Gen Ai_Involead.json",
+        "job_role": "Data Scientist"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    },
+    {
+      "rank": 2,
+      "resume_id": "Deepakpawar_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.6717774130910397,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.5,
+          "resume_value": "sql, machine learning, deep learning, rag, keras, scikit-learn, nlp, transformer, numpy, langchain, llm, bert, azure, git, python, docker, pytorch, tensorflow, pandas",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 4 overlapping skills out of 8 required skills. Embedding similarity: 0.6718"
+        },
+        "Education": {
+          "match_pct": 0.5710108011273837,
+          "resume_value": "Bachelor of Technology: Civil Engineering, 2013-2017 . Indian Institute of Technology, Kanpur",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.6718). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.6381885424364877,
+          "resume_value": "Data Scientist",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.6718). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.6045996717819357,
+          "resume_value": "Data Scientist at ABM, Nov22–Present — Developed SQL AI Agent using LangChain and Streamlit for natural language to SQL query conversion., Junior Commissioned Officer at Border Road Organization, 2020-2022 — Served as Junior Commissioned Officer in BRO for improving the road connectivity of inaccessible and remote locations of Sikkim while withstanding the adverse weather and terrain challenge., Prepared for Civil Services Examination, 2017-2020 — Projects and achievements during this period are not mentioned in the provided text.",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.6718). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.6045996717819357,
+        "why_overall_match_is_this": "Overall match of 60.5% based on embedding similarity (0.6718). Found 4 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.6717774130910397,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "job_role": "Data Scientist",
+        "source": "Deepakpawar_Sr. Gen Ai_Involead.json"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    },
+    {
+      "rank": 3,
+      "resume_id": "DivakarKumar_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.6346612381163841,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.875,
+          "resume_value": "sql, generative ai, kubernetes, deep learning, rag, nosql, aws, scikit-learn, gcp, numpy, langchain, prompt engineering, azure, git, python, docker, ci/cd, pytorch, tensorflow, devops",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 7 overlapping skills out of 8 required skills. Embedding similarity: 0.6347"
+        },
+        "Education": {
+          "match_pct": 0.5394620523989265,
+          "resume_value": "Bachelor of Technology in Electrical & Electronics Engineering from Lovely Professional University, Diploma in Electrical & Electronics Engineering from St. Marys College of Engineering & Technology",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.6347). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.6029281762105648,
+          "resume_value": "Generative AI Engineer",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.6347). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.5711951143047458,
+          "resume_value": "Engineer BI, Exponentia.ai Pvt Ltd, Mumbai IN. Jul 2023 Present. Developed a Retrieval-Augmented Generation (RAG) system combining structured and unstructured data to support interactive Q&A capabilities for enterprise users. Developed scalable data pipelines with embedded monitoring to track model accuracy and system reliability. for multi-modal data ingestion (documents, images, ppt, invoices, video, audio), reducing data processing time by 30% and reduction in data processing time through optimized pipeline architecture and parallel processing techniques. Developed and deployed multi agent supervisor AI agents tailored for individual departments across the organisation, enabling context-aware task execution, intelligent automation, and domain-specific decision support. Maintained strong communication with business stakeholders and cross-functional engineers to prioritize AI initiatives., Associate Business Intelligence Engineer, Exponentia.ai Pvt Ltd, Mumbai IN. Nov 2021 Jun 2023. Developed 20+ dashboards for FinTech companies and private banking clients, delivering custom visual analytics and intuitive user interfaces to meet changing business requirements. Led internal initiatives and poc projects to design, build, and deploy scalable Qlik Sense applications, speeding up business insights and decision-making and collaborated with business stakeholders to define KPIs and refine dashboard requirements. Automated data workflows using Qlik Application Automation and integrated predictive analytics with Qlik AutoML, increasing operational efficiency and forecasting accuracy. Collaborated with domain experts, data engineers, and QA teams to ensure smooth project execution and alignment with business objectives. Led multiple POCs focused on innovation in generative AI for multimodal content processing, Data Analyst Intern, A for Analytics Pvt Ltd., Chennai IN. Jul 2021 Oct 2021. Developed interactive dashboards for inventory tracking and procurement analytics using Power BI, improving visibility into stock levels and supplier performance. Developed models to predict inventory needs, reducing overstock and understock events by 20%. Automated data ingestion and transformation pipelines from multiple sources (Excel, databases) to streamline daily reporting and reduce manual effort by 40%",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.6347). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.5711951143047458,
+        "why_overall_match_is_this": "Overall match of 57.1% based on embedding similarity (0.6347). Found 7 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.6346612381163841,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "source": "DivakarKumar_Sr. Gen Ai_Involead.json",
+        "job_role": "Generative AI Engineer"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    },
+    {
+      "rank": 4,
+      "resume_id": "NavyaSinha_Sr.Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.590512195609427,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.375,
+          "resume_value": "python, langchain, sql, generative ai, llm, prompt engineering, bert, nlp, machine learning, deep learning, rag, azure",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 3 overlapping skills out of 8 required skills. Embedding similarity: 0.5905"
+        },
+        "Education": {
+          "match_pct": 0.5019353662680129,
+          "resume_value": "Post Graduate Diploma in Data Science from Manipal Academy of Higher Education, Bachelors of Technology in Computer Science and Engineering from DR. APJ ABDUL KALAM TECHNICAL UNIVERSITY",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.5905). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.5609865858289557,
+          "resume_value": "Data Scientist",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.5905). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.5314609760484843,
+          "resume_value": "Data Scientist at Gartner, Oct 2021–Jan 2025 — Led and expanded the Country Localization initiative across key non-English-speaking regions, integrating localized PESTLE insights into sales strategies and contributing to a 5% uplift in regional revenue. Optimized research workflows by transitioning from Python scripts to Azure Databricks and built GenAI pipelines using LLMs (Mistral, OpenAI), LangChain for chunking, and prompt engineering for insights from Talkwalker and LinkedIn APIs. Delivered fast-turnaround GenAI-powered social media insights for 12 research notes, collaborating with the Chief of Research and Knowledge & Insights Leaders across practices like I&O, Software, and AI. Mentored three associates on advanced text analytics, strengthening the teams expertise and also worked on cross team collaboration for company know L&D project that won best project award. Secured the Content Excellence Award for contributing high-quality research supporting talent and event-based quick turnaround projects., Data Science Specialist at Gartner — Led the shift from traditional to analytics-driven research by conducting knowledge-sharing sessions and developing reusable NLP frameworks (like Topic Modeling, Sentiment Analysis, Translation), accelerating team-wide adoption of modern research methodologies. Conducted coverage analysis to assess supply-demand alignment, leveraging FAISS, BERT-based models, Text Similarity, and Clustering techniques to enhance content planning. Led the planning and execution of a cross-functional vertical-level sports event with 35 participants, enhancing leadership engagement and team collaboration. Recognized with the Best Promising Newcomer award for impactful contributions across analytics enablement, technical innovation, and cross-functional initiatives., Data Analyst at Virtue Analytics, Mar 2021–Oct 2021 — Gathered and processed large-scale raw data, including web scraping and scripting in Python, to enable data-driven decision-making. Applied machine learning techniques to predict scholarship eligibility and need-based aid, based on student scores and expected family contributions.",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.5905). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.5314609760484843,
+        "why_overall_match_is_this": "Overall match of 53.1% based on embedding similarity (0.5905). Found 3 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.590512195609427,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "source": "NavyaSinha_Sr.Gen Ai_Involead.json",
+        "job_role": "Data Scientist"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    },
+    {
+      "rank": 5,
+      "resume_id": "Alipt Shrivastava.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.5847397658412148,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.625,
+          "resume_value": "sql, generative ai, terraform, machine learning, deep learning, rag, nosql, aws, react, embedding, nlp, langchain, llm, prompt engineering, mlops, vector database, azure, gpt, computer vision, git",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 5 overlapping skills out of 8 required skills. Embedding similarity: 0.5847"
+        },
+        "Education": {
+          "match_pct": 0.49702880096503255,
+          "resume_value": "B.Tech. in Computer Science from Madhav Institute of Technology & Science",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.5847). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.5555027775491541,
+          "resume_value": "Machine Learning Engineer",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.5847). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.5262657892570933,
+          "resume_value": "Machine Learning Engineer | Fidelity International (2022 - Present) — Developed a Random Forest Classifier model to classify network risk zones, improving security accuracy to 94% and created a xgboost model to recommend firewall deployment with a 96% accuracy rate. Automated firewall rule generation, reducing manual effort by 80% and deployment time by 60%. Integrated continuous monitoring & feedback loops, retraining models for adaptive security enhancements. Developed an advanced multi-agent chatbot system leveraging LangChain and multiple state-of-the-art LLMs (GPT-4, Claude 3.5 Sonnet, Gemma2-9b-IT, and Mistral) for robust, general-purpose information retrieval. Integrated RAG-based Q&A using vector databases including FAISS, Pinecone, Chroma, and Astra DB to support context-aware, document-driven conversations across enterprise knowledge bases. Utilized HuggingFace embeddings and RecursiveCharacterTextSplitter for efficient chunking and semantic search optimization over a large corpus of enterprise documents. Designed and deployed intelligent multi-agent workflows using LangChain Agents (Zero-Shot ReAct, Few-Shot CoT) and agentic orchestration frameworks like LangGraph and CrewAI to facilitate modular task delegation and dynamic tool usage. Built a software tool for automating CISCO-ACI switch configurations, enhancing network efficiency by 30%. Created an automation solution for DNS record creation, reducing errors and improving accuracy by 95%. Developed a stock market prediction model using LSTM-RNN, achieving MSE = 0.032. Utilized genetic algorithm for hyperparameter tuning and Pearsons Correlation Coefficient for feature selection Lead data preprocessing & feature engineering, ensuring improved model efficiency. Developed a CNN-based model for human emotion recognition, enhancing classification accuracy.",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.5847). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.5262657892570933,
+        "why_overall_match_is_this": "Overall match of 52.6% based on embedding similarity (0.5847). Found 5 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.5847397658412148,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "source": "Alipt Shrivastava.json",
+        "job_role": "Machine Learning Engineer"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    },
+    {
+      "rank": 6,
+      "resume_id": "Devanshi Bordia.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.5408742350072839,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.625,
+          "resume_value": "git, python, sql, scikit-learn, numpy, llm, docker, bert, devops, gcp, machine learning, kubernetes, rag, azure, keras, tensorflow, pandas, aws",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 5 overlapping skills out of 8 required skills. Embedding similarity: 0.5409"
+        },
+        "Education": {
+          "match_pct": 0.45974309975619126,
+          "resume_value": "M.Tech. (CSE, specialized in Data Science & AI), Data Science & AI, Symbiosis Institute of Technology, Pune, B.E. (Computer Science Engineering), Rajiv Gandhi Technical University, Bhopal",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.5409). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.5138305232569197,
+          "resume_value": "Machine Learning Engineer",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.5409). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.48678681150655556,
+          "resume_value": "Data Scientist at Mahindra Finance, progressing from Deputy Manager to a senior engineering role. Dedicated to driving innovative data initiatives, providing technical leadership, and executing strategic projects to foster a culture of innovation. Demonstrated effective communication and collaboration skills while working within cross-functional teams, leveraging cloud platforms (GCP, AWS, Azure) and data visualization tools (Tableau, Power BI) to improve project outcomes and foster positive team dynamics., Data Engineer, PortQi, Bangalore, Feb'2022 to June22, Machine Learning Engineer, Mahindra Finance, Pune, July ''2022 to Present",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.5409). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.48678681150655556,
+        "why_overall_match_is_this": "Overall match of 48.7% based on embedding similarity (0.5409). Found 5 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.5408742350072839,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "job_role": "Machine Learning Engineer",
+        "source": "Devanshi Bordia.json"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    },
+    {
+      "rank": 7,
+      "resume_id": "VishalGahlot_Sr.Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "embedding_similarity": 0.4773348405538333,
+      "detailed_analysis": {
+        "Skills": {
+          "match_pct": 0.625,
+          "resume_value": "sql, machine learning, deep learning, keras, aws, scikit-learn, nlp, transformer, numpy, llm, bert, azure, gpt, computer vision, git, python, docker, ci/cd, pytorch, tensorflow",
+          "job_description_value": "python, generative ai, fine-tuning, pytorch, gcp, azure, tensorflow, aws",
+          "explanation": "Based on embedding analysis, found 5 overlapping skills out of 8 required skills. Embedding similarity: 0.4773"
+        },
+        "Education": {
+          "match_pct": 0.4057346144707583,
+          "resume_value": "B.sc,(Computer Science) IGNOU (2015-2018), Central Board of Secondary Education (CBSE), Higher Secondary (10+2) (2014), Advanced Certification in Data Science and Decision Science, IIT Delhi (2024 - Present), Coding Invaders, Data Science Certification, Arena Animation, Web Development (2015-2018)",
+          "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+          "explanation": "Education match estimated from embedding similarity (0.4773). Detailed comparison requires LLM analysis."
+        },
+        "Job Role": {
+          "match_pct": 0.45346809852614156,
+          "resume_value": "Machine Learning Engineer",
+          "job_description_value": "ML Engineer/Generative AI Engineer",
+          "explanation": "Job role compatibility estimated from embedding similarity (0.4773). Semantic analysis suggests good alignment."
+        },
+        "Experience": {
+          "match_pct": 0.42960135649845,
+          "resume_value": "Machine Learning Engineer at Pace Developers LLM | October 2024 Present — Building predictive models to identify potential project delays using historical and real-time construction data. Applying computer vision techniques to detect cracks and material defects from construction site images and videos. Analyzing equipment usage patterns with ML algorithms to reduce idle time and improve resource efficiency. Developing interactive dashboards with Power BI to support real-time decision-making on active construction sites. Collaborating with engineers and project teams to integrate data-driven insights into daily operations and planning., Jr. ML Engineer at Feynn Labs | feb 2024- October 2024 — Developed and fine-tuned ML models for real-world applications. Preprocessed and analyzed large datasets using Python, Pandas, and NumPy. Built and optimized deep learning models using TensorFlow, Keras & PyTorch. Deployed ML models using Flask & FastAPI. Collaborated with cross-functional teams to integrate AI solutions. Big Data & Cloud: Apache Spark (PySpark, Spark SQL), Hadoop (HDFS, MapReduce), Data Warehousing (Redshift, Snowflake, BigQuery), AWS (S3, EC2, Lambda, RDS), Azure (Data Lake, Synapse), Google Cloud Platform (GCS, BigQuery), Kafka. Tools & Deployment: Jupyter Notebook, Excel (Power Query, Pivot Tables), Flask, FastAPI, Streamlit, Docker, Airflow, MLflow, Git, CI/CD, REST APIs, VS Code, Linux/Unix Command Line., Data Scientist at SGS Tekniks Manufacturing Pvt. Ltd. | 2021- 2024 — Developed predictive models to improve equipment maintenance, reducing downtime by 20%. Analyzed production data to identify bottlenecks, leading to a 15% improvement in efficiency. Created automated data pipelines using Python and SQL to streamline data processing. Built dashboards with Tableau to visualize production trends and key performance metrics. Applied machine learning techniques to optimize quality control, reducing defect rates by 18%.",
+          "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+          "explanation": "Experience match estimated from embedding similarity (0.4773). Content appears semantically aligned."
+        },
+        "OverallMatchPercentage": 0.42960135649845,
+        "why_overall_match_is_this": "Overall match of 43.0% based on embedding similarity (0.4773). Found 5 skill overlaps. LLM analysis unavailable.",
+        "AI_Generated_Estimate_Percentage": 0.0,
+        "embedding_similarity": 0.4773348405538333,
+        "analysis_method": "fallback_embedding_based",
+        "llm_error": null
+      },
+      "resume_metadata": {
+        "source": "VishalGahlot_Sr.Gen Ai_Involead.json",
+        "job_role": "Machine Learning Engineer"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      }
+    }
+  ],
+  "all_similarity_scores": [
+    {
+      "resume_id": "SurajSingh_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.7110694036463134
+    },
+    {
+      "resume_id": "Deepakpawar_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.6717774130910397
+    },
+    {
+      "resume_id": "DivakarKumar_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.6346612381163841
+    },
+    {
+      "resume_id": "NavyaSinha_Sr.Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.590512195609427
+    },
+    {
+      "resume_id": "Alipt Shrivastava.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.5847397658412148
+    },
+    {
+      "resume_id": "Devanshi Bordia.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.5408742350072839
+    },
+    {
+      "resume_id": "VishalGahlot_Sr.Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity": 0.4773348405538333
+    }
+  ]
+}
+
+
+

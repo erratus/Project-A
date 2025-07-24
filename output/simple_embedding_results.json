@@ -1,0 +1,155 @@
+{
+  "comparison_type": "simple_embedding_based",
+  "timestamp": "2025-07-24 11:53:02",
+  "processing_time_seconds": 0.83,
+  "similarity_threshold": 0.6,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "total_matches": 3,
+  "matches": [
+    {
+      "resume_id": "SurajSingh_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity_score": 0.7110694036463134,
+      "resume_content": "Skill: Python, SQL, Flask, FastAPI, Scikit-learn, Pandas, XGBoost, Langchain, CrewAI, Agile Methodology, Data Visualization, Enterprise Data Analytics, AWS, Docker, AWS Bedrock, Agentic AI, Autonomous Agents, Classification Models, Regression Modeling, Time-Series Forecasting, Generative AI, Retrieval Augmented Generation (RAG), Large Language Models (LLM)\nEducation: Bachelor of Technology from PDM College of Engineering, Class XII from CBSE, Class X from CBSE\nExperience: Data Scientist at To The New | 11/2022 Present — Led AI/ML model development and Generative AI (GenAI) applications, delivering scalable solutions using LLMs, RAG, forecasting, and classification models across cloud infrastructure, finance, compliance, and operational domains., QA Automation Engineer at Indus Valley Partners | 05/2020 11/2022 — Transitioned from Quality Assurance to Data Science within fintech data platforms, ensuring data integrity and system stability before designing predictive models and analytical dashboards for financial decision-making., Data Scientist at Newi Intelligent Assistant | 01/2025 Present — Developed a GenAI-powered enterprise assistant using LLM-based autonomous agents to streamline operations across HR, IT, and Compliance., Data Scientist at PWC-GSTR Project | 11/2023 12/2024 — Developed an intelligent GST compliance and reconciliation system for automating return filing, transaction validation, and data verification across ERP platforms like SAP, Oracle, and MS Dynamics., Data Scientist at AWS Spot Prediction Project | 12/2022 10/2023 — Developed a machine learning-based prediction system to forecast AWS Spot Instance terminations, enabling proactive autoscaling and reducing infrastructure disruptions., Data Scientist at Data Warehouse Polaris | 06/2022 11/2022 — Worked on a financial data warehousing solution designed for hedge funds and asset managers to improve analytics, reporting, and strategic decision-making., QA Automation Engineer at Security and Reference Master | 05/2020 05/2022 — Contributed to feature validation, release planning, and quality assurance for 50+ modules spanning data creation, update, and entity search workflows, ensuring end-to-end product reliability.\nJob Role: Data Scientist\nOther Info: Results-driven Data Scientist with over 5+ years of experience delivering impactful solutions across Generative AI, Agentic AI, intelligent automation, and predictive analytics., Specializing in end-to-end machine learning workflows from data preprocessing and feature engineering to model deployment and real-time integration., IBM Generative AI Engineering, IBM Data Science, ISTQB Foundation Level, Newi Intelligent Assistant, PWC-GSTR Project, AWS Spot Prediction Project, Data Warehouse Polaris, Security and Reference Master, Adept at translating business problems into data-driven solutions within Agile product teams, driving measurable efficiency and operational intelligence., Leveraged historical instance pricing and lifecycle data to train XGBoost models with time-based features like rolling averages and demand spikes., Developed regression models to forecast security prices using historical market data, enhancing investment planning., Gained hands-on experience with regression modeling, data visualization, and real-time financial data ingestion pipelines., Designed and integrated multi-agent workflows with a real-time FastAPI backend and CrewAI for cross-functional query resolution., Integrated a RAG-based Generative AI system for concise document summaries and Q&A, implemented semantic search, and utilized LLMs for keyword extraction to enhance compliance and reconciliation processes., Built classification models using historical transaction data to identify invalid, duplicate, and suspicious entries., Translated business problems into data-driven solutions within Agile product teams, driving measurable efficiency and operational intelligence., Led AI/ML model development and Generative AI (GenAI) applications, delivering scalable solutions using LLMs, RAG, forecasting, and classification models across cloud infrastructure, finance, compliance, and operational domains.",
+      "jd_content": "Skill: Python, TensorFlow, PyTorch, AWS, Azure, GCP\nEducation: B Tech/M Tech in Computer/IT or related field from reputed engineering colleges\nExperience: 3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members\nJob Role: ML Engineer/Generative AI Engineer\nOther Info: Hybrid work model is not explicitly mentioned but it's mentioned that it's an equal opportunities employer and welcomes applications from all sections of society., InvoLead is an equal opportunities employer and welcomes applications from all sections of society and does not discriminate on grounds of race, religion, or belief, ethnic or national origin, disability, age, citizenship, marital, domestic or civil partnership status, sexual orientation, gender identity, or any other basis as protected by applicable law.",
+      "resume_metadata": {
+        "job_role": "Data Scientist",
+        "source": "SurajSingh_Sr. Gen Ai_Involead.json"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      },
+      "analysis": {
+        "embedding_similarity": 0.7110694036463134,
+        "similarity_percentage": 71.10694036463134,
+        "skill_overlap_count": 3,
+        "skill_match_percentage": 37.5,
+        "resume_skills_found": [
+          "sql",
+          "generative ai",
+          "scikit-learn",
+          "pandas",
+          "langchain",
+          "docker",
+          "aws",
+          "python",
+          "rag",
+          "llm"
+        ],
+        "jd_skills_required": [
+          "tensorflow",
+          "generative ai",
+          "aws",
+          "python",
+          "azure",
+          "pytorch",
+          "fine-tuning",
+          "gcp"
+        ],
+        "recommendation": "moderate_match - consider for interview",
+        "analysis_method": "embedding_based_simple"
+      }
+    },
+    {
+      "resume_id": "Deepakpawar_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity_score": 0.6717774130910397,
+      "resume_content": "Skill: Python, SQL, LangChain, Streamlit, GenAI, Deep Learning, ANN, RNN, LSTM, GRU, Regression, Ensemble Methods, Boosting Methods, Hypothesis Testing, ETL Pipeline, Data Cleaning, Feature Engineering, EDA, Data Pipeline, Amazon Web Service, Microsoft Azure, MySQL, MongoDB, PostgreSQL, TensorFlow, Keras, PyTorch, NLTK, Spacy, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Flask, Git, GitHub Action, DVC, mlflow, Apache Airflow, Dagshub, Grafana, Notebook, Colab, Docker, BERT, OpenAI, Ollama, GROQ, Transformers, Hugging face, MCP Integration, Agentic RAG, Agentic AI\nEducation: Bachelor of Technology: Civil Engineering, 2013-2017 . Indian Institute of Technology, Kanpur\nExperience: Data Scientist at ABM, Nov22–Present — Developed SQL AI Agent using LangChain and Streamlit for natural language to SQL query conversion., Junior Commissioned Officer at Border Road Organization, 2020-2022 — Served as Junior Commissioned Officer in BRO for improving the road connectivity of inaccessible and remote locations of Sikkim while withstanding the adverse weather and terrain challenge., Prepared for Civil Services Examination, 2017-2020 — Projects and achievements during this period are not mentioned in the provided text.\nJob Role: Data Scientist\nOther Info: Results-oriented Data Scientist with over 2.5 years of experience in leveraging GenAI, Deep Learning, and Machine Learning techniques to solve complex AI Agent and NLP challenges, enhance generative analytics, and deliver actionable insights that fuel business growth., Languages Python, Interests - GenAI, NLP, LLM, AI Agent, Chatbot, RAG, Deep Learning, Data Science, Machine Learning etc.",
+      "jd_content": "Skill: Python, TensorFlow, PyTorch, AWS, Azure, GCP\nEducation: B Tech/M Tech in Computer/IT or related field from reputed engineering colleges\nExperience: 3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members\nJob Role: ML Engineer/Generative AI Engineer\nOther Info: Hybrid work model is not explicitly mentioned but it's mentioned that it's an equal opportunities employer and welcomes applications from all sections of society., InvoLead is an equal opportunities employer and welcomes applications from all sections of society and does not discriminate on grounds of race, religion, or belief, ethnic or national origin, disability, age, citizenship, marital, domestic or civil partnership status, sexual orientation, gender identity, or any other basis as protected by applicable law.",
+      "resume_metadata": {
+        "job_role": "Data Scientist",
+        "source": "Deepakpawar_Sr. Gen Ai_Involead.json"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      },
+      "analysis": {
+        "embedding_similarity": 0.6717774130910397,
+        "similarity_percentage": 67.17774130910396,
+        "skill_overlap_count": 4,
+        "skill_match_percentage": 50.0,
+        "resume_skills_found": [
+          "sql",
+          "docker",
+          "machine learning",
+          "bert",
+          "numpy",
+          "llm",
+          "nlp",
+          "tensorflow",
+          "scikit-learn",
+          "git"
+        ],
+        "jd_skills_required": [
+          "tensorflow",
+          "generative ai",
+          "aws",
+          "python",
+          "azure",
+          "pytorch",
+          "fine-tuning",
+          "gcp"
+        ],
+        "recommendation": "moderate_match - consider for interview",
+        "analysis_method": "embedding_based_simple"
+      }
+    },
+    {
+      "resume_id": "DivakarKumar_Sr. Gen Ai_Involead.json",
+      "jd_id": "JD_ML_Generative AI Engineer.json",
+      "similarity_score": 0.6346612381163841,
+      "resume_content": "Skill: Python, SQL, NoSQL, FastAPI, Postman, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Qlik Sense, Scikit-learn, SpaCy, NLTK, PyTorch, TensorFlow, MySQL, MongoDB, PostgreSQL, Flask, Streamlit, Chainlit, Gradio, CI, CI/CD, Docker, Kubernetes, GitHub, Git, Azure DevOps, MLFlow, AWS, SageMaker, GCP Vertex AI, Azure, Whisper, HuggingFace, Azure OpenAI, Gemini, Mistral, OpenAI, Prompt Engineering, DALL-E, LlamaParse, fast whisper, Amazon Bedrock, Anthropic, Databricks, MCP, A2A Protocol, FAISS, ChromaDB, Qdrant, LangChain, Langraph, Crewai, Google Agent Development Kit, Agno, Pydantic ai, OpenAI SDK\nEducation: Bachelor of Technology in Electrical & Electronics Engineering from Lovely Professional University, Diploma in Electrical & Electronics Engineering from St. Marys College of Engineering & Technology\nExperience: Engineer BI, Exponentia.ai Pvt Ltd, Mumbai IN. Jul 2023 Present. Developed a Retrieval-Augmented Generation (RAG) system combining structured and unstructured data to support interactive Q&A capabilities for enterprise users. Developed scalable data pipelines with embedded monitoring to track model accuracy and system reliability. for multi-modal data ingestion (documents, images, ppt, invoices, video, audio), reducing data processing time by 30% and reduction in data processing time through optimized pipeline architecture and parallel processing techniques. Developed and deployed multi agent supervisor AI agents tailored for individual departments across the organisation, enabling context-aware task execution, intelligent automation, and domain-specific decision support. Maintained strong communication with business stakeholders and cross-functional engineers to prioritize AI initiatives., Associate Business Intelligence Engineer, Exponentia.ai Pvt Ltd, Mumbai IN. Nov 2021 Jun 2023. Developed 20+ dashboards for FinTech companies and private banking clients, delivering custom visual analytics and intuitive user interfaces to meet changing business requirements. Led internal initiatives and poc projects to design, build, and deploy scalable Qlik Sense applications, speeding up business insights and decision-making and collaborated with business stakeholders to define KPIs and refine dashboard requirements. Automated data workflows using Qlik Application Automation and integrated predictive analytics with Qlik AutoML, increasing operational efficiency and forecasting accuracy. Collaborated with domain experts, data engineers, and QA teams to ensure smooth project execution and alignment with business objectives. Led multiple POCs focused on innovation in generative AI for multimodal content processing, Data Analyst Intern, A for Analytics Pvt Ltd., Chennai IN. Jul 2021 Oct 2021. Developed interactive dashboards for inventory tracking and procurement analytics using Power BI, improving visibility into stock levels and supplier performance. Developed models to predict inventory needs, reducing overstock and understock events by 20%. Automated data ingestion and transformation pipelines from multiple sources (Excel, databases) to streamline daily reporting and reduce manual effort by 40%\nJob Role: Generative AI Engineer\nOther Info: Awarded 'Best Team 2024' for leadership and contributions to AI-driven product delivery at Exponentia.ai, Data Camp Data Analysis with python Neural Networks and Deep Learning (DeepLearning.AI), Certifications:, Soft Skills:, Communication, Collaboration, Stakeholder Alignment, Documentation, Best Practices, Design Patterns, Languages spoken:, Multilingual (not specified), Hobbies and interests:, Not specified, Awards and achievements:, Awarded 'Best Team 2024', Relocation or career objectives:, Not specified, Extracurriculars or personal statements:, Not specified",
+      "jd_content": "Skill: Python, TensorFlow, PyTorch, AWS, Azure, GCP\nEducation: B Tech/M Tech in Computer/IT or related field from reputed engineering colleges\nExperience: 3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members\nJob Role: ML Engineer/Generative AI Engineer\nOther Info: Hybrid work model is not explicitly mentioned but it's mentioned that it's an equal opportunities employer and welcomes applications from all sections of society., InvoLead is an equal opportunities employer and welcomes applications from all sections of society and does not discriminate on grounds of race, religion, or belief, ethnic or national origin, disability, age, citizenship, marital, domestic or civil partnership status, sexual orientation, gender identity, or any other basis as protected by applicable law.",
+      "resume_metadata": {
+        "job_role": "Generative AI Engineer",
+        "source": "DivakarKumar_Sr. Gen Ai_Involead.json"
+      },
+      "jd_metadata": {
+        "source": "JD_ML_Generative AI Engineer.json",
+        "job_role": "ML Engineer/Generative AI Engineer"
+      },
+      "analysis": {
+        "embedding_similarity": 0.6346612381163841,
+        "similarity_percentage": 63.46612381163841,
+        "skill_overlap_count": 7,
+        "skill_match_percentage": 87.5,
+        "resume_skills_found": [
+          "sql",
+          "docker",
+          "ci/cd",
+          "kubernetes",
+          "generative ai",
+          "numpy",
+          "gcp",
+          "devops",
+          "tensorflow",
+          "scikit-learn"
+        ],
+        "jd_skills_required": [
+          "tensorflow",
+          "generative ai",
+          "aws",
+          "python",
+          "azure",
+          "pytorch",
+          "fine-tuning",
+          "gcp"
+        ],
+        "recommendation": "weak_match - review carefully",
+        "analysis_method": "embedding_based_simple"
+      }
+    }
+  ],
+  "summary": {
+    "top_similarity": 0.7110694036463134,
+    "average_similarity": 0.6725026849512457,
+    "recommendations": {
+      "strong_match": 0,
+      "good_match": 0,
+      "moderate_match": 2,
+      "weak_match": 1
+    }
+  }
+}

@@ -1,0 +1,67 @@
+[SUCCESS] Comparison completed in 2562.98 seconds
+
+SUMMARY:
+- Total resumes analyzed: 7
+- Total job descriptions: 1
+- Matches above threshold: 7
+- Processing time: 2562.98 seconds
+
+ALL MATCHES (sorted by similarity):
+1. SurajSingh_Sr. Gen Ai_Involead.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.7111
+   Overall Match: 64.0%
+   Skills: 37.5%
+   Experience: 64.0%
+   Education: 60.4%
+   Job Role: 67.6%
+
+2. Deepakpawar_Sr. Gen Ai_Involead.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.6718
+   Overall Match: 60.5%
+   Skills: 50.0%
+   Experience: 60.5%
+   Education: 57.1%
+   Job Role: 63.8%
+
+3. DivakarKumar_Sr. Gen Ai_Involead.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.6347
+   Overall Match: 57.1%
+   Skills: 87.5%
+   Experience: 57.1%
+   Education: 53.9%
+   Job Role: 60.3%
+
+4. NavyaSinha_Sr.Gen Ai_Involead.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.5905
+   Overall Match: 53.1%
+   Skills: 37.5%
+   Experience: 53.1%
+   Education: 50.2%
+   Job Role: 56.1%
+
+5. Alipt Shrivastava.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.5847
+   Overall Match: 52.6%
+   Skills: 62.5%
+   Experience: 52.6%
+   Education: 49.7%
+   Job Role: 55.6%
+
+6. Devanshi Bordia.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.5409
+   Overall Match: 48.7%
+   Skills: 62.5%
+   Experience: 48.7%
+   Education: 46.0%
+   Job Role: 51.4%
+
+7. VishalGahlot_Sr.Gen Ai_Involead.json vs JD_ML_Generative AI Engineer.json
+   Embedding Similarity: 0.4773
+   Overall Match: 43.0%
+   Skills: 62.5%
+   Experience: 43.0%
+   Education: 40.6%
+   Job Role: 45.3%
+
+
+[SUCCESS] Results saved to: output\embedding_comparison_results.json

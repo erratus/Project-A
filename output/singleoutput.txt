@@ -1,0 +1,31 @@
+{
+  "NavyaSinha_Sr.Gen Ai_Involead.json": {
+    "Skills": {
+      "match_pct": 0.75,
+      "resume_value": "Azure Databricks, Deep Learning, Generative AI, Large Language Models, LLMs, Machine Learning, Market Research Analytics, NLP, Python, Sentiment Analysis, Social Media Analytics, Social Media Research, SQL, Text Analytics, Web Scraping",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume and job description are related but not identical. The resume mentions specific tools and frameworks used in data science and analytics, while the job description focuses on generative AI and machine learning engineering. However, there is some overlap in terms of technologies like Python and NLP."
+    },
+    "Education": {
+      "match_pct": 0.5,
+      "resume_value": "Post Graduate Diploma in Data Science from Manipal Academy of Higher Education, Bachelors of Technology in Computer Science and Engineering from DR. APJ ABDUL KALAM TECHNICAL UNIVERSITY",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume is a postgraduate diploma in data science, while the job description requires a bachelor's or master's degree in computer science or a related field. However, both degrees are relevant to the field of data science and AI."
+    },
+    "Job Role": {
+      "match_pct": 0.75,
+      "resume_value": "Data Scientist",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job role listed in the resume is a data scientist, while the job description requires an ML engineer or generative AI engineer. Both roles involve working with data and developing models, but the focus is different. The resume mentions experience in data science and analytics, while the job description focuses specifically on generative AI and machine learning engineering."
+    },
+    "Experience": {
+      "match_pct": 0.75,
+      "resume_value": "Data Scientist at Gartner, Oct 2021–Jan 2025 — Led and expanded the Country Localization initiative across key non-English-speaking regions, integrating localized PESTLE insights into sales strategies and contributing to a 5% uplift in regional revenue. Optimized research workflows by transitioning from Python scripts to Azure Databricks and built GenAI pipelines using LLMs (Mistral, OpenAI), LangChain for chunking, and prompt engineering for insights from Talkwalker and LinkedIn APIs. Delivered fast-turnaround GenAI-powered social media insights for 12 research notes, collaborating with the Chief of Research and Knowledge & Insights Leaders across practices like I&O, Software, and AI. Mentored three associates on advanced text analytics, strengthening the teams expertise and also worked on cross team collaboration for company know L&D project that won best project award. Secured the Content Excellence Award for contributing high-quality research supporting talent and event-based quick turnaround projects.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume is focused on data science and analytics, while the job description requires hands-on experience in machine learning and generative AI. The resume mentions experience in localization, sentiment analysis, and social media research, while the job description focuses specifically on developing and deploying generative models. However, there is some overlap in terms of skills like Python and NLP."
+    },
+    "OverallMatchPercentage": 0.72,
+    "why_overall_match_is_this": "The resume and job description have a moderate level of match (72%). While there are some overlaps in terms of skills and experience, the focus of the two documents is different. The resume is focused on data science and analytics, while the job description is focused on machine learning and generative AI.",
+    "AI_Generated_Estimate_Percentage": 0.72
+  }
+}
