@@ -1,0 +1,33 @@
+[
+  {
+    "CandidateName_vs_JobTitle": {
+      "Skills": {
+        "match_pct": 0.0,
+        "resume_value": "List of skills from resume as comma-separated string",
+        "job_description_value": "List of required skills from job description as comma-separated string", 
+        "explanation": "Detailed explanation of skills match/mismatch"
+      },
+      "Education": {
+        "match_pct": 0.0,
+        "resume_value": "Education details from resume",
+        "job_description_value": "Required education from job description",
+        "explanation": "Explanation of education match/mismatch"
+      },
+      "Job Role": {
+        "match_pct": 0.0,
+        "resume_value": "Current/target job role from resume",
+        "job_description_value": "Target job role from job description", 
+        "explanation": "Explanation of job role alignment"
+      },
+      "Experience": {
+        "match_pct": 0.0,
+        "resume_value": "Detailed work experience from resume with companies, dates, and responsibilities",
+        "job_description_value": "Required experience from job description including years, domain, technologies",
+        "explanation": "Explanation of experience relevance and match"
+      },
+      "OverallMatchPercentage": 0.0,
+      "why_overall_match_is_this": "Summary explanation of overall match calculation and reasoning",
+      "AI_Generated_Estimate_Percentage": 0.0
+    }
+  }
+]

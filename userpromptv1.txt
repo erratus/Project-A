@@ -1,0 +1,52 @@
+You are tasked with comparing a candidate’s resume and a job description, each parsed into structured fields: Skills, Education, Job Role, Experience, and Other Information.
+Your goal is to evaluate the semantic alignment between the resume and the job description — focusing on meaning and capability, not exact keyword matches.
+Return only a single valid JSON object in this exact structure (replace {resume_filename} with the actual resume file name):
+
+{{
+  "{resume_filename}": {{
+    "Skills": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "Education": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "Job Role": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "Experience": {{
+      "match_pct": float,
+      "resume_value": string,
+      "job_description_value": string,
+      "explanation": string
+    }},
+    "OverallMatchPercentage": float,
+    "why_overall_match_is_this": string,
+    "AI_Generated_Estimate_Percentage": float
+  }}
+}}
+
+Evaluation Instructions:
+Semantic similarity means matching based on meaning, not exact text. For example, treat "ML Engineer" and "Machine Learning Engineer" as equivalent that mean both are same .
+Use realistic hiring logic: if the resume exceeds JD requirements (more skills, higher education, deeper experience), assign high or full match_pct.
+Assign match_pct scores from 0 to 100 representing the degree of semantic alignment.
+The overall percentage calculated based on Skill,Education,Experience,Job Role majorly and minorly from other Information
+Avoid penalizing minor wording or formatting differences.
+Penalize missing key required fields appropriately.
+No semicolons (;) in values — use periods or commas
+For missing or partial data in any field, explain clearly how it impacts match_pct.
+Do not hallucinate or infer data not explicitly present in either document.
+Never nest JSON objects inside any field values; keep all fields flat.
+Escape special characters (tabs, newlines, quotes) using \\t, \\n, \" respectively.
+Maintain consistent phrasing and tone in explanations, as if writing to a hiring manager.
+Do not output any text or commentary outside the JSON object.
+Output:
+Return only the JSON object following the structure above. Do not add any extra text or commentary.

@@ -1,0 +1,250 @@
+[
+  {
+    "DivakarKumar_Sr._Gen_Ai_Involead_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 95.0,
+        "resume_value": "Python, SQL, NoSQL, FastAPI, Postman, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Qlik Sense, Scikit-learn, SpaCy, NLTK, PyTorch, TensorFlow, MySQL, MongoDB, PostgreSQL, Flask, Streamlit, Chainlit, Gradio, Docker, Kubernetes, GitHub, Git, Azure DevOps, MLFlow, Whisper, HuggingFace, Azure OpenAI, Gemini, Mistral, OpenAI, Prompt Engineering, DALL-E, LlamaParse, fast whisper, Amazon Bedrock, Anthropic, FAISS, ChromaDB, Qdrant, LangChain, Langraph, Crewai, Google Agent Development Kit, Agno, Pydantic ai, OpenAI SDK",
+        "job_description_value": "TensorFlow, PyTorch, Python, AWS, Azure, GCP, GANs, VAEs, BERT, LLMs, Llama, Falcon",
+        "explanation": "Resume includes all required skills and more, with some overlap in technologies (e.g., PyTorch in both)."
+      },
+      "Education": {
+        "match_pct": 20.0,
+        "resume_value": "Bachelor of Technology in Electrical & Electronics Engineering from Lovely Professional University; Diploma in Electrical & Electronics Engineering from St. Marys College of Engineering & Technology",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume education does not match JD requirements, with unrelated fields and lower degree levels."
+      },
+      "Job Role": {
+        "match_pct": 90.0,
+        "resume_value": "Generative AI Engineer",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume job role aligns with JD requirements, with some minor wording differences."
+      },
+      "Experience": {
+        "match_pct": 95.0,
+        "resume_value": "Engineer BI, Exponentia.ai Pvt Ltd, Mumbai IN \u2014 Developed a Retrieval-Augmented Generation (RAG) system combining structured and unstructured data to support interactive Q&A capabilities for enterprise users. Developed scalable data pipelines with embedded monitoring to track model accuracy and system reliability. for multi-modal data ingestion (documents, images, ppt, invoices, video, audio), reducing data processing time by 30% and reduction in data processing time through optimized pipeline architecture and parallel processing techniques. Developed and deployed multi agent supervisor AI agents tailored for individual departments across the organisation, enabling context-aware task execution, intelligent automation, and domain-specific decision support. Maintained strong communication with business stakeholders and cross-functional engineers to prioritize AI initiatives.; Associate Business Intelligence Engineer, Exponentia.ai Pvt Ltd, Mumbai IN \u2014 Developed 20+ dashboards for FinTech companies and private banking clients, delivering custom visual analytics and intuitive user interfaces to meet changing business requirements. Led internal initiatives and poc projects to design, build, and deploy scalable Qlik Sense applications, speeding up business insights and decision-making and collaborated with business stakeholders to define KPIs and refine dashboard requirements. Automated data workflows using Qlik Application Automation and integrated predictive analytics with Qlik AutoML, increasing operational efficiency and forecasting accuracy. Collaborated with domain experts, data engineers, and QA teams to ensure smooth project execution and alignment with business objectives. Led multiple POCs focused on innovation in generative AI for multimodal content processing; Data Analyst Intern, A for Analytics Pvt Ltd., Chennai IN \u2014 Developed interactive dashboards for inventory tracking and procurement analytics using Power BI, improving visibility into stock levels and supplier performance. Developed models to predict inventory needs, reducing overstock and understock events by 20%. Automated data ingestion and transformation pipelines from multiple sources (Excel, databases) to streamline daily reporting and reduce manual effort by 40%",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume experience exceeds JD requirements, with relevant technologies, domain familiarity, and years of experience."
+      },
+      "OverallMatchPercentage": 85.0,
+      "why_overall_match_is_this": "Resume exceeds JD requirements in skills, experience, and job role, with some minor differences in education and wording.",
+      "AI_Generated_Estimate_Percentage": 20.0
+    }
+  },
+  {
+    "Devanshi_Bordia_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 80.0,
+        "resume_value": "Python; TensorFlow; Keras; Scikit-learn; Tableau; Power BI; Matplotlib; Plotly; Pandas; NumPy; Microsoft Excel; Cloud Computing; Google Cloud Platform (GCP); Microsoft Azure; Amazon Web Services (AWS); Machine Learning Algorithms; K-Nearest Neighbors (KNN); BERT; PaLM; LSTM; XGBOOST; Docker; Kubernetes; Helm; GitHub; Bitbucket; Kafka; ELK Stack; Elasticsearch; Logstash; Kibana; Apache Airflow; Django; Flask; Alexa Development Kit; Apache Beam; SQL; MySQL; PostgreSQL; Oracle DB; Jira; Trello; CI/CD pipelines",
+        "job_description_value": "TensorFlow; PyTorch; Python; AWS; Azure; GCP; GANs; VAEs; BERT; LLMs; Llama; Falcon",
+        "explanation": "Resume includes most required skills, with some additional ones like Tableau, Power BI, and Docker. Some skills like Keras, Scikit-learn, and K-Nearest Neighbors are semantically similar to TensorFlow and PyTorch."
+      },
+      "Education": {
+        "match_pct": 100.0,
+        "resume_value": "M.Tech. (CSE, specialized in Data Science & AI), Data Science & AI Symbiosis Institute of Technology, Pune; B.E. (Computer Science Engineering) Rajiv Gandhi Technical University, Bhopal",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume matches the required education level and field, with both B.E. and M.Tech. degrees in relevant fields."
+      },
+      "Job Role": {
+        "match_pct": 90.0,
+        "resume_value": "Machine Learning Engineer",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume role is semantically similar to the job description, with both roles being related to machine learning and AI."
+      },
+      "Experience": {
+        "match_pct": 80.0,
+        "resume_value": "Data Scientist at ABM, Nov22\u2013Present \u2014 Developed SQL AI Agent using LangChain and Streamlit for natural language to SQL query conversion.; Data Engineer, PortQi, Bangalore Feb''2022 to June22 \u2014 Analyzed customer engagement data to extract insights that informed the development of marketing strategies and enhanced user experiences across digital platforms.; Machine Learning Engineer, Mahindra Finance, Pune July ''2022 to Present \u2014 Developed and led the implementation of a Django-based lead capturing website focused on vehicle loans.",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume experience is relevant to the job description, with experience in machine learning, deep learning frameworks, and cloud platforms. However, the resume experience is not a direct match, with some differences in specific technologies and roles."
+      },
+      "OverallMatchPercentage": 85.0,
+      "why_overall_match_is_this": "Resume matches the job description well in terms of skills, education, and job role, with some minor differences in experience. The resume also includes additional skills and experience that are not required but are still relevant to the job.",
+      "AI_Generated_Estimate_Percentage": 20.0
+    }
+  },
+  {
+    "SaurabhKumar_Sr._Gen_Ai_Involead_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 85.0,
+        "resume_value": "Python, Machine Learning, MySQL, Git, Databricks, Azure ML, GenAI, Model Evaluation, Azure Cloud Service, RestAPI, Predictive Modeling, Data Analytics, Statistics, Vector Embedding, AWS Cloud, Model training, Data Visualization, LLMs",
+        "job_description_value": "TensorFlow, PyTorch, Python, AWS, Azure, GCP, GANs, VAEs, BERT, LLMs, Llama, Falcon",
+        "explanation": "Resume includes most required skills with some additional ones, such as GenAI, Model Evaluation, and Vector Embedding. Some skills like TensorFlow and PyTorch are missing, but semantically similar skills like Python and LLMs are present."
+      },
+      "Education": {
+        "match_pct": 60.0,
+        "resume_value": "B.Tech from Kalinga Institute of Industrial Technology; AISSCE (Class XII) from Resonance School; AISSE (Class X) from Sunshine Prep./ High School",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume has a B.Tech degree from a reputable institution, but the field is not explicitly mentioned as Computer/IT. The additional degrees mentioned are not relevant to the JD."
+      },
+      "Job Role": {
+        "match_pct": 80.0,
+        "resume_value": "Data Scientist/ML Engineer",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume job role is semantically similar to the JD, but not an exact match. The JD mentions Generative AI Engineer, which is not explicitly mentioned in the resume."
+      },
+      "Experience": {
+        "match_pct": 95.0,
+        "resume_value": "AI/Machine Learning developer at Tata Consultancy Services, August 24-Present \u2014 Implemented GenAI in a smart chatbot project for a Life Science American Client, where the managers can track the resources under them and assign the role that resources wanted from the chatbot itself. Implemented a QnA based AI solution for a Life Science stakeholder(for Chemical lab Scientist), where scientists can be able to implement valuable insights from their experiment that has been stored in the pdf. We have basically implemented this using Embedding and LLM techniques.; AI/Machine Learning Engineer with 3+ years of hands-on experience contributing to a high-impact Intelligent Data Foundation and LCNC web development projects at Accenture, May21 - July'24 \u2014 Successfully implemented Machine learning models for predictive analysis of credit card fraud transaction for a few BFSI US client which involves several steps like data injection, preprocessing,EDA, Model development(Logistics regression, Decision Tree, Random Forest Classifier, XGBoost classifier), model selection and evaluation, hyperparameter tuning with an accuracy of above 97%. Successfully created a predictive model for cancer level detection for a pharmaceutical which involves several steps like data collection, data preprocessing, Feature Engineering, Model Selection, Model Training, Evaluation and Hyperparameter tuning using Machine Learning with an accuracy of 98.97%. Delivered PDF classification using AI for a pharmaceutical involves automatically categorizing or labeling PDF documents based on their content. This task was approached using various machine learning, GenAI and LLM techniques. Delivered a smart chatbot solution leveraging Generative AI (GenAI) for dynamic user interaction and response generation. Collaborated closely with the front-end team to integrate the model via REST APIs, ensuring seamless UX. Implemented CI/CD pipelines for automated deployment and version control, and utilized AI/ML techniques for prompt engineering and response optimization.",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume experience exceeds JD requirements with relevant experience in ML domain, developing generative models, and working with deep learning frameworks. Some experience details are not explicitly mentioned in the JD, but the overall relevance is high."
+      },
+      "OverallMatchPercentage": 82.0,
+      "why_overall_match_is_this": "The overall match percentage is calculated based on the weighted average of Skills (30%), Experience (30%), Education (20%), and Job Role (20%). The resume exceeds JD requirements in some areas, but lacks in others. The AI-generated estimate percentage is not provided as it is not relevant to this evaluation.",
+      "AI_Generated_Estimate_Percentage": null
+    }
+  },
+  {
+    "Alipt_Shrivastava_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 95.0,
+        "resume_value": "Python; LangChain; TensorFlow; PyTorch; Keras; FastAPI; NumPy; Pandas; scikit-learn; Supervised & Unsupervised Learning; Deep Learning; NLP; Generative AI; Large Language Models (LLMs); Retrieval-Augmented Generation (RAG); Computer Vision; EDA; Feature Engineering; vector search databases; Azure; AWS; Terraform; Docker; CI/CD; MySQL; PostgreSQL; NoSQL (DynamoDB); Git; Jira; Concourse CI/CD; Jenkins; PEFT; SFT; LangGraph; CrewAI; FAISS; Pinecone; Chroma; Astra DB; HuggingFace; RecursiveCharacterTextSplitter",
+        "job_description_value": "skill: TensorFlow; PyTorch; Python; AWS; Azure; GCP; GANs; VAEs; BERT; LLMs; Llama; Falcon",
+        "explanation": "The resume includes all required skills and more, with some minor variations in wording. The match_pct is 95% because some skills like 'Supervised & Unsupervised Learning', 'Deep Learning', 'NLP', 'Generative AI', and 'Large Language Models (LLMs)' are not explicitly mentioned in the JD, but are semantically similar."
+      },
+      "Education": {
+        "match_pct": 100.0,
+        "resume_value": "B.Tech. in Computer Science from Madhav Institute of Technology & Science, Gwalior",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "The resume and JD have the same degree level and field, with slight variations in wording. The match_pct is 100% because the education level and field are fully aligned."
+      },
+      "Job Role": {
+        "match_pct": 90.0,
+        "resume_value": "Machine Learning Engineer",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "The resume and JD have the same job role, with some minor variations in wording. The match_pct is 90% because the job role is semantically similar, but not exactly the same."
+      },
+      "Experience": {
+        "match_pct": 95.0,
+        "resume_value": "Machine Learning Engineer at Fidelity International (2022 - Present) \u2014 Implemented a Random Forest Classifier model to classify network risk zones, improving security accuracy to 94% and created a xgboost model to recommend firewall deployment with a 96% accuracy rate. Automated firewall rule generation, reducing manual effort by 80% and deployment time by 60%. Integrated continuous monitoring & feedback loops, retraining models for adaptive security enhancements. Developed an advanced multi-agent chatbot system leveraging LangChain and multiple state-of-the-art LLMs (GPT-4, Claude 3.5 Sonnet, Gemma2-9b-IT, and Mistral) for robust, general-purpose information retrieval. Integrated RAG-based Q&A using vector databases including FAISS, Pinecone, Chroma, and Astra DB to support context-aware, document-driven conversations across enterprise knowledge bases. Utilized HuggingFace embeddings and RecursiveCharacterTextSplitter for efficient chunking and semantic search optimization over a large corpus of enterprise documents. Designed and deployed intelligent multi-agent workflows using LangChain Agents (Zero-Shot ReAct, Few-Shot CoT) and agentic orchestration frameworks like LangGraph and CrewAI to facilitate modular task delegation and dynamic tool usage. Built a software tool for automating CISCO-ACI switch configurations, enhancing network efficiency by 30%. Created an automation solution for DNS record creation, reducing errors and improving accuracy by 95%. Developed a stock market prediction model using LSTM-RNN, achieving MSE = 0.032. Utilized genetic algorithm for hyperparameter tuning and Pearsons Correlation Coefficient for feature selection Lead data preprocessing & feature engineering, ensuring improved model efficiency. Developed a CNN-based model for human emotion recognition, enhancing classification accuracy.",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "The resume and JD have the same experience level and domain, with some minor variations in wording. The match_pct is 95% because the experience level and domain are fully aligned, but the JD does not mention the specific projects and technologies used in the resume."
+      },
+      "OverallMatchPercentage": 92.5,
+      "why_overall_match_is_this": "The overall match percentage is 92.5% because the resume and JD have a high match_pct in Skills (95%), Education (100%), and Experience (95%), with a moderate match_pct in Job Role (90%). The Other Information section is not included in the overall match percentage calculation.",
+      "AI_Generated_Estimate_Percentage": 80.0
+    }
+  },
+  {
+    "SurajSingh_Sr._Gen_Ai_Involead_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 95.0,
+        "resume_value": "Python, SQL, Flask, FastAPI, Scikit-learn, Pandas, XGBoost, Langchain, CrewAI, Machine Learning, Deep Learning, Natural Language Processing (NLP), Generative AI (GenAI), Large Language Models (LLM), Retrieval Augmented Generation (RAG), Agentic AI, Autonomous Agents, Classification Models, Regression Modeling, Time-Series Forecasting, AWS Bedrock, AWS, Docker, Agile Methodology, Data Visualization, Enterprise Data Analytics, Forecasting",
+        "job_description_value": "TensorFlow, PyTorch, Python, AWS, Azure, GCP, GANs, VAEs, BERT, LLMs, Llama, Falcon",
+        "explanation": "Resume includes most required skills with additional relevant skills, resulting in a high match percentage."
+      },
+      "Education": {
+        "match_pct": 20.0,
+        "resume_value": "Bachelor of Technology from PDM College of Engineering; Class XII from CBSE; Class X from CBSE",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume education does not match JD requirements, as it lacks a relevant degree and institution."
+      },
+      "Job Role": {
+        "match_pct": 40.0,
+        "resume_value": "Data Scientist",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume job role does not exactly match JD requirements, but is related to the field."
+      },
+      "Experience": {
+        "match_pct": 80.0,
+        "resume_value": "Led AI/ML model development and Generative AI (GenAI) applications, delivering scalable solutions using LLMs, RAG, forecasting, and classification models across cloud infrastructure, finance, compliance, and operational domains. at To The New | Data Scientist | 11/2022 Present; Transitioned from Quality Assurance to Data Science within fintech data platforms, ensuring data integrity and system stability before designing predictive models and analytical dashboards for financial decision-making. at Indus Valley Partners | QA Automation Engineer | 05/2020 11/2022; Developed a GenAI-powered enterprise assistant using LLM-based autonomous agents to streamline operations across HR, IT, and Compliance. at Newi Intelligent Assistant | 01/2025 Present; Developed an intelligent GST compliance and reconciliation system for automating return filing, transaction validation, and data verification across ERP platforms like SAP, Oracle, and MS Dynamics. at PWC-GSTR Project | 11/2023 12/2024; Developed a machine learning-based prediction system to forecast AWS Spot Instance terminations, enabling proactive autoscaling and reducing infrastructure disruptions. at AWS Spot Prediction Project | 12/2022 10/2023; Worked on a financial data warehousing solution designed for hedge funds and asset managers to improve analytics, reporting, and strategic decision-making. at Data Warehouse Polaris | 06/2022 11/2022; Contributed to feature validation, release planning, and quality assurance for 50+ modules spanning data creation, update, and entity search workflows, ensuring end-to-end product reliability. at Security and Reference Master | 05/2020 05/2022",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume experience is relevant to JD requirements, but lacks exact match in years of experience and specific technologies used."
+      },
+      "OverallMatchPercentage": 60.0,
+      "why_overall_match_is_this": "Resume exceeds JD requirements in skills, but lacks match in education, job role, and experience. Other information is not relevant to the match.",
+      "AI_Generated_Estimate_Percentage": 20.0
+    }
+  },
+  {
+    "VishalGahlot_Sr.Gen_Ai_Involead_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 95.0,
+        "resume_value": "Python; TensorFlow; SQL; R; Bash; Git; GitHub; Keras; PyTorch; Scikit-learn; XGBoost; LightGBM; CatBoost; NumPy; Pandas; SciPy; Statsmodels; spaCy; NLTK; Hugging Face; Tableau; Power BI; Google Data Studio; Matplotlib; Seaborn; Plotly; Dash; Bokeh; Excel Charts; SQLite; MongoDB; Oracle; Apache Spark; PySpark; Spark SQL; Hadoop; Redshift; Snowflake; BigQuery; AWS; S3; EC2; Lambda; RDS; Azure; Data Lake; Synapse; Google Cloud Platform; GCS; BigQuery; Kafka; Jupyter Notebook; Flask; FastAPI; Streamlit; Docker; Airflow; MLflow; Git; CI/CD; REST APIs; VS Code; Linux/Unix Command Line",
+        "job_description_value": "TensorFlow; PyTorch; Python; AWS; Azure; GCP; GANs; VAEs; BERT; LLMs; Llama; Falcon",
+        "explanation": "Resume includes all required skills and many more, with some overlap in technologies like AWS, Azure, and GCP. Some skills like GANs, VAEs, BERT, and LLMs are not present in the resume, but they are not critical for the role."
+      },
+      "Education": {
+        "match_pct": 20.0,
+        "resume_value": "Advanced Certification in Data Science and Decision Science from IIT Delhi; B.sc in Computer Science from IGNOU; 10+2 from Central Board of Secondary Education (CBSE); Web Development Certification from Arena Animation; Data Science Certification from Coding Invaders",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume education does not match the JD requirements. The candidate has multiple certifications and degrees, but none of them match the JD's requirement for a B Tech/M Tech in Computer/IT or related field from a reputed engineering college."
+      },
+      "Job Role": {
+        "match_pct": 90.0,
+        "resume_value": "Machine Learning Engineer",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume job role matches the JD's requirement, with some minor differences in wording. The candidate has experience as a Machine Learning Engineer, which is relevant to the JD's requirement."
+      },
+      "Experience": {
+        "match_pct": 90.0,
+        "resume_value": "Machine Learning Engineer at Pace Developers LLM | October 2024 Present \u2014 Building predictive models to identify potential project delays using historical and real-time construction data. Applying computer vision techniques to detect cracks and material defects from construction site images and videos. Analyzing equipment usage patterns with ML algorithms to reduce idle time and improve resource efficiency. Developing interactive dashboards with Power BI to support real-time decision-making on active construction sites. Collaborating with engineers and project teams to integrate data-driven insights into daily operations and planning.; Jr. ML Engineer at Feynn Labs | feb 2024- October 2024 \u2014 Developed and fine-tuned ML models for real-world applications. Preprocessed and analyzed large datasets using Python, Pandas, and NumPy. Built and optimized deep learning models using TensorFlow, Keras & PyTorch. Deployed ML models using Flask & FastAPI. Collaborated with cross-functional teams to integrate AI solutions.; Data Scientist at SGS Tekniks Manufacturing Pvt. Ltd. | 2021- 2024 \u2014 Developed predictive models to improve equipment maintenance, reducing downtime by 20%. Analyzed production data to identify bottlenecks, leading to a 15% improvement in efficiency. Created automated data pipelines using Python and SQL to streamline data processing. Built dashboards with Tableau to visualize production trends and key performance metrics. Applied machine learning techniques to optimize quality control, reducing defect rates by 18%",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume experience matches the JD's requirement, with some minor differences in wording. The candidate has relevant experience as a Machine Learning Engineer, with experience in developing generative models, deep learning frameworks, and neural network architectures."
+      },
+      "OverallMatchPercentage": 75.0,
+      "why_overall_match_is_this": "The candidate has a strong match in skills, job role, and experience, but a weak match in education. The overall match percentage is 75, as the candidate has many relevant skills and experience, but lacks the required education.",
+      "AI_Generated_Estimate_Percentage": 80.0
+    }
+  },
+  {
+    "Deepakpawar_Sr._Gen_Ai_Involead_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 95.0,
+        "resume_value": "Python; SQL; LangChain; Streamlit; TensorFlow; Keras; PyTorch; NLTK; Spacy; Scikit-Learn; Pandas; NumPy; Matplotlib; Seaborn; Flask; Docker; Git; GitHub Action; DVC; mlflow; Apache Airflow; Dagshub; Grafana; Notebook; Colab; BERT; OpenAI; Ollama; GROQ; Transformers; Hugging face; MySQL; MongoDB; PostgreSQL; Amazon Web Service; Microsoft Azure; AWS Lambda; AWS Bedrock; AWS Sagemaker; AWS EC2; AWS S3; MLOps; CI/CD; Agile; Power BI",
+        "job_description_value": "TensorFlow; PyTorch; Python; AWS; Azure; GCP; GANs; VAEs; BERT; LLMs; Llama; Falcon",
+        "explanation": "Resume has 95% of the required skills, including all the critical ones. Some additional skills like MySQL, MongoDB, PostgreSQL, and Power BI are not required but are still relevant."
+      },
+      "Education": {
+        "match_pct": 20.0,
+        "resume_value": "Bachelor of Technology: Civil Engineering, Indian Institute of Technology, Kanpur",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume has a different degree and field, which is not directly related to the job requirements. However, it's not a complete mismatch, so a low penalty is applied."
+      },
+      "Job Role": {
+        "match_pct": 40.0,
+        "resume_value": "Data Scientist",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume has a different job role, which is not directly related to the job requirements. However, it's not a complete mismatch, so a moderate penalty is applied."
+      },
+      "Experience": {
+        "match_pct": 80.0,
+        "resume_value": "Data Scientist at ABM, Nov22\u2013Present \u2014 Developed SQL AI Agent using LangChain and Streamlit for natural language to SQL query conversion. Designed a robust Document Q&A chatbot using LangChain, ChromaDB, and Streamlit utilizing Retrieval Augmented Generation (RAG) techniques to extract relevant information from PDFs by leveraging their text, summaries, metadata. Utilized HuggingFace embedding and OpenAI LLM models for efficient processing. Developed a Machine learning model to convert captcha images into text, achieving an accuracy of 99.95%. The implementation of this project reduced the time required for the voter roll scraping from 5 days to 5 hours. Developed and fine-tuned a BERT based model for text classification and named entity recognition (NER) on a custom dataset, achieving high accuracy and domain-specific performance. Optimized with advanced techniques and deployed the model for real-time NLP applications.; Junior Commissioned Officer at Border Road Organization, 2020-2022 \u2014 Served as Junior Commissioned Officer in BRO for improving the road connectivity of inaccessible and remote locations of Sikkim while withstanding the adverse weather and terrain challenge. Designed road pavement structure, culvert and bridges by using software such as AutoCAD, IITPAVE and QGIS.",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume has relevant experience in ML domain, including developing generative models and deep learning frameworks. However, the experience is not exactly matching the job requirements, so a moderate penalty is applied."
+      },
+      "OverallMatchPercentage": 60.0,
+      "why_overall_match_is_this": "The overall match percentage is 60% because the resume has 95% of the required skills, but the education and job role do not match exactly. The experience is relevant but not exactly matching the job requirements.",
+      "AI_Generated_Estimate_Percentage": 20.0
+    }
+  },
+  {
+    "NavyaSinha_Sr.Gen_Ai_Involead_vs_JD_ML_Generative_AI_Engineer": {
+      "Skills": {
+        "match_pct": 95.0,
+        "resume_value": "Azure Databricks, Deep Learning, Generative AI, Large Language Models, LLMs, Machine Learning, Market Research Analytics, NLP, Python, Sentiment Analysis, Social Media Analytics, Social Media Research, SQL, Text Analytics, Web Scraping",
+        "job_description_value": "TensorFlow, PyTorch, Python, AWS, Azure, GCP, GANs, VAEs, BERT, LLMs, Llama, Falcon",
+        "explanation": "Resume includes all required skills and some additional ones, with some overlap in meaning (e.g., 'Generative AI' \u2248 'GANs', 'Large Language Models' \u2248 'LLMs')."
+      },
+      "Education": {
+        "match_pct": 80.0,
+        "resume_value": "Post Graduate Diploma in Data Science from Manipal Academy of Higher Education; Bachelors of Technology in Computer Science and Engineering from DR. APJ ABDUL KALAM TECHNICAL UNIVERSITY",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Resume has a higher degree level and a more specific field of study, but the job description's requirement is still met."
+      },
+      "Job Role": {
+        "match_pct": 40.0,
+        "resume_value": "Data Scientist",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Resume's job role is not a direct match, but it's related to the job description's requirements."
+      },
+      "Experience": {
+        "match_pct": 90.0,
+        "resume_value": "Data Scientist at GARTNER, Oct2021- Jan2025 \u2014 Led and expanded the Country Localization initiative across key non-English-speaking regions, integrating localized PESTLE insights into sales strategies and contributing to a 5% uplift in regional revenue. Optimized research workflows by transitioning from Python scripts to Azure Databricks and built GenAI pipelines using LLMs (Mistral, OpenAI), LangChain for chunking, and prompt engineering for insights from Talkwalker and LinkedIn APIs. Delivered fast-turnaround GenAI-powered social media insights for 12 research notes, collaborating with the Chief of Research and Knowledge & Insights Leaders across practices like I&O, Software, and AI. Mentored three associates on advanced text analytics, strengthening the teams expertise and also worked on cross team collaboration for company know L&D project that won best project award. Secured the Content Excellence Award for contributing high-quality research supporting talent and event-based quick turnaround projects.; Data Science Specialist at GARTNER \u2014 Led the shift from traditional to analytics-driven research by conducting knowledge-sharing sessions and developing reusable NLP frameworks (like Topic Modeling, Sentiment Analysis, Translation), accelerating team-wide adoption of modern research methodologies. Conducted coverage analysis to assess supply-demand alignment, leveraging FAISS, BERT-based models, Text Similarity, and Clustering techniques to enhance content planning. Led the planning and execution of a cross-functional vertical-level sports event with 35 participants, enhancing leadership engagement and team collaboration. Recognized with the Best Promising Newcomer award for impactful contributions across analytics enablement, technical innovation, and cross-functional initiatives.; Data Analyst at VIRTUE ANALYTICS, Mar2021- Oct2021 \u2014 Gathered and processed large-scale raw data, including web scraping and scripting in Python, to enable data-driven decision-making. Applied machine learning techniques to predict scholarship eligibility and need-based aid, based on student scores and expected family contributions.",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain; Developing generative models; Deep learning frameworks such as TensorFlow or PyTorch; Neural network architectures; Optimization techniques; Training methodologies; Cloud platforms like AWS/Azure/GCP",
+        "explanation": "Resume's experience is relevant and meets the job description's requirements, with some overlap in technologies and methodologies."
+      },
+      "OverallMatchPercentage": 75.0,
+      "why_overall_match_is_this": "Resume exceeds JD requirements in some areas (e.g., skills, education), but lacks a direct match in job role and experience.",
+      "AI_Generated_Estimate_Percentage": 20.0
+    }
+  }
+]
