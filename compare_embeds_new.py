@@ -166,20 +166,27 @@ Return only the JSON object, and ensure:
 
 class EmbeddingBasedComparator:
     """Main class for embedding-based resume-JD comparison"""
-    
+
     def __init__(self):
         """Initialize the comparator"""
         print("[INFO] Initializing Embedding-Based Comparator...")
-        
+
         # Initialize embedding model
         self.embedding_model = HuggingFaceEmbeddings(
             model_name=EMBEDDING_MODEL,
             model_kwargs={'device': 'cpu'}
         )
-        
+
         # Initialize LLM for detailed analysis
         self.chat = ChatOllama(model=MODEL_NAME, temperature=0.0, seed=42)
-        
+
+        # Cache for embeddings to avoid recomputation
+        self.embedding_cache = {}
+
+        # Pre-computed JD embedding (will be set once)
+        self.jd_embedding = None
+        self.jd_content = None
+
         print("[INFO] Initialization complete!")
     
     def load_resume_data(self, resume_folder_path: str) -> Dict[str, Any]:
@@ -257,12 +264,69 @@ class EmbeddingBasedComparator:
             "filename": jd_file
         }
     
-    def calculate_embedding_similarity(self, resume_content: str, jd_content: str) -> float:
+    def precompute_jd_embedding(self, jd_content: str):
+        """Pre-compute and cache JD embedding to avoid recomputation"""
+        if self.jd_content != jd_content or self.jd_embedding is None:
+            print("[INFO] Computing JD embedding...")
+            self.jd_embedding = self.embedding_model.embed_query(jd_content)
+            self.jd_content = jd_content
+            print("[INFO] JD embedding cached successfully")
+
+    def get_cached_embedding(self, content: str, content_type: str = "resume") -> np.ndarray:
+        """Get embedding from cache or compute and cache it"""
+        content_hash = hash(content)
+        cache_key = f"{content_type}_{content_hash}"
+
+        if cache_key not in self.embedding_cache:
+            self.embedding_cache[cache_key] = self.embedding_model.embed_query(content)
+
+        return self.embedding_cache[cache_key]
+
+    def precompute_resume_embeddings(self, resume_contents: List[str]) -> Dict[str, np.ndarray]:
+        """Pre-compute embeddings for multiple resume contents efficiently"""
+        embeddings = {}
+        print(f"[INFO] Pre-computing embeddings for {len(resume_contents)} resume contents...")
+
+        for i, content in enumerate(resume_contents):
+            content_hash = hash(content)
+            cache_key = f"resume_{content_hash}"
+
+            if cache_key not in self.embedding_cache:
+                self.embedding_cache[cache_key] = self.embedding_model.embed_query(content)
+
+            embeddings[content] = self.embedding_cache[cache_key]
+
+            if (i + 1) % 10 == 0:  # Progress update every 10 embeddings
+                print(f"[INFO] Computed {i + 1}/{len(resume_contents)} embeddings")
+
+        return embeddings
+
+    def clear_embedding_cache(self):
+        """Clear the embedding cache to free memory"""
+        cache_size = len(self.embedding_cache)
+        self.embedding_cache.clear()
+        print(f"[INFO] Cleared embedding cache ({cache_size} entries)")
+
+    def get_cache_stats(self) -> Dict[str, Any]:
+        """Get statistics about the embedding cache"""
+        return {
+            "cache_size": len(self.embedding_cache),
+            "jd_embedding_cached": self.jd_embedding is not None,
+            "jd_content_length": len(self.jd_content) if self.jd_content else 0
+        }
+
+    def calculate_embedding_similarity(self, resume_content: str, jd_content: str = None) -> float:
         """Calculate cosine similarity between resume and JD embeddings"""
         try:
-            resume_embedding = self.embedding_model.embed_query(resume_content)
-            jd_embedding = self.embedding_model.embed_query(jd_content)
-            
+            # Use cached JD embedding if available, otherwise compute
+            if self.jd_embedding is not None and (jd_content is None or jd_content == self.jd_content):
+                jd_embedding = self.jd_embedding
+            else:
+                jd_embedding = self.get_cached_embedding(jd_content or self.jd_content, "jd")
+
+            # Get resume embedding (with caching)
+            resume_embedding = self.get_cached_embedding(resume_content, "resume")
+
             similarity = cosine_similarity([resume_embedding], [jd_embedding])[0][0]
             return float(similarity)
         except Exception as e:
@@ -276,14 +340,66 @@ class EmbeddingBasedComparator:
             return ", ".join(field_data) if field_data else f"No {field_name} information provided"
         return str(field_data) if field_data else f"No {field_name} information provided"
 
+    def run_comparison_batch(self, resume_data_list: List[Tuple[Dict, str]], jd_data: Dict) -> Dict[str, Any]:
+        """Run comparison for multiple resumes in batch for better performance"""
+        all_results = {}
+
+        # Pre-compute JD embedding once for all comparisons
+        self.precompute_jd_embedding(jd_data["embedding_content"])
+
+        # Extract all resume contents for batch embedding computation
+        resume_contents = [resume_data["embedding_content"] for resume_data, _ in resume_data_list]
+
+        # Pre-compute all resume embeddings in batch
+        self.precompute_resume_embeddings(resume_contents)
+
+        # Calculate all similarities efficiently
+        print(f"[INFO] Computing similarities for {len(resume_data_list)} resumes...")
+        embedding_similarities = {}
+
+        for resume_data, resume_filename in resume_data_list:
+            try:
+                embedding_similarity = self.calculate_embedding_similarity(
+                    resume_data["embedding_content"]
+                )
+                embedding_similarities[resume_filename] = embedding_similarity
+            except Exception as e:
+                print(f"[WARNING] Failed to compute similarity for {resume_filename}: {e}")
+                embedding_similarities[resume_filename] = 0.0
+
+        print("[INFO] All embeddings and similarities computed. Processing LLM comparisons...")
+
+        # Process each resume with LLM
+        for i, (resume_data, resume_filename) in enumerate(resume_data_list):
+            try:
+                print(f"[{i+1}/{len(resume_data_list)}] Processing LLM analysis: {resume_filename}")
+                result = self._run_single_comparison(
+                    resume_data, jd_data, resume_filename,
+                    embedding_similarities.get(resume_filename, 0.0)
+                )
+                all_results.update(result)
+            except Exception as e:
+                print(f"[ERROR] Failed to process {resume_filename}: {e}")
+                all_results[resume_filename] = {"error": str(e)}
+
+        return all_results
+
     def run_comparison(self, resume_data: Dict, jd_data: Dict, resume_filename: str) -> Dict[str, Any]:
         """Run comparison between resume and JD using embeddings + LLM analysis"""
 
+        # Pre-compute JD embedding if not already done
+        if self.jd_embedding is None:
+            self.precompute_jd_embedding(jd_data["embedding_content"])
+
         # Calculate embedding similarity for context
         embedding_similarity = self.calculate_embedding_similarity(
-            resume_data["embedding_content"],
-            jd_data["embedding_content"]
+            resume_data["embedding_content"]
         )
+
+        return self._run_single_comparison(resume_data, jd_data, resume_filename, embedding_similarity)
+
+    def _run_single_comparison(self, resume_data: Dict, jd_data: Dict, resume_filename: str, embedding_similarity: float) -> Dict[str, Any]:
+        """Internal method to run a single comparison with pre-computed embedding similarity"""
 
         print(f"[INFO] Embedding similarity: {embedding_similarity:.4f}")
 
@@ -476,47 +592,65 @@ def main():
 
     print(f"[INFO] Found {len(resume_folders)} resumes to compare")
 
-    # Process each resume
-    all_results = {}
-    successful_matches = 0
-    failed_matches = 0
-
+    # Load all resume data first for batch processing
     print("\n" + "="*50)
-    print("[INFO] Starting comparison process...")
+    print("[INFO] Loading resume data for batch processing...")
     print(f"[INFO] Job Description: {jd_data['filename']}")
     print(f"[INFO] Number of resumes to process: {len(resume_folders)}")
     print("-" * 50)
 
+    resume_data_list = []
+    failed_loads = 0
+
     for i, resume_folder in enumerate(resume_folders):
         try:
-            # Load resume data
             resume_data = comparator.load_resume_data(resume_folder)
             resume_filename = resume_data['filename']
-
-            print(f"\n[{i+1}/{len(resume_folders)}] Processing: {resume_filename}")
-
-            # Run comparison
-            result = comparator.run_comparison(resume_data, jd_data, resume_filename)
-
-            # Merge results
-            all_results.update(result)
-
-            if "error" not in result.get(resume_filename, {}):
-                successful_matches += 1
-                print(f"[SUCCESS] Completed: {resume_filename}")
-            else:
-                failed_matches += 1
-                print(f"[FAILED] Error processing: {resume_filename}")
-
+            resume_data_list.append((resume_data, resume_filename))
+            print(f"[{i+1}/{len(resume_folders)}] Loaded: {resume_filename}")
         except Exception as e:
-            failed_matches += 1
-            print(f"[FAILED] Exception processing {resume_folder}: {e}")
+            failed_loads += 1
             folder_name = os.path.basename(resume_folder)
-            all_results[f"{folder_name}.json"] = {"error": str(e)}
+            print(f"[FAILED] Could not load {folder_name}: {e}")
+
+    print(f"\n[INFO] Successfully loaded {len(resume_data_list)} resumes")
+    if failed_loads > 0:
+        print(f"[WARNING] Failed to load {failed_loads} resumes")
+
+    # Process all resumes in batch
+    print("\n[INFO] Starting batch comparison process...")
+    start_time = time.time()
+
+    all_results = comparator.run_comparison_batch(resume_data_list, jd_data)
+
+    # Add any failed loads to results
+    for resume_folder in resume_folders:
+        folder_name = os.path.basename(resume_folder)
+        resume_filename = f"{folder_name}.json"
+        if resume_filename not in all_results:
+            # This was a failed load
+            all_results[resume_filename] = {"error": "Failed to load resume data"}
+
+    end_time = time.time()
+    processing_time = end_time - start_time
+
+    # Count successful and failed matches
+    successful_matches = sum(1 for data in all_results.values() if "error" not in data)
+    failed_matches = len(all_results) - successful_matches
+
+    print(f"\n[INFO] Batch processing completed in {processing_time:.2f} seconds")
+    print(f"[INFO] Average time per resume: {processing_time/len(all_results):.2f} seconds")
+
+    # Print cache statistics
+    cache_stats = comparator.get_cache_stats()
+    print(f"[INFO] Cache statistics: {cache_stats}")
+
+    # Clear cache to free memory
+    comparator.clear_embedding_cache()
 
     # === Save Results in format.json structure ===
     os.makedirs("output", exist_ok=True)
-    output_file = "output/embed_matches_pass_2.json"
+    output_file = "output/embed_matches_pass_3.json"
 
     # Convert results to format.json structure
     formatted_results = []
