@@ -23,18 +23,16 @@
     "Streamlit",
     "Chainlit",
     "Gradio",
+    "CI/CD",
     "Docker",
     "Kubernetes",
     "GitHub",
     "Git",
     "Azure DevOps",
     "MLFlow",
-    "Deployment & Infrastructure",
-    "AWS",
-    "SageMaker",
-    "GCP Vertex AI",
-    "Azure",
-    "LLMs Frameworks",
+    "Databricks",
+    "MCP",
+    "A2A Protocol",
     "Whisper",
     "HuggingFace",
     "Azure OpenAI",
@@ -43,16 +41,6 @@
     "OpenAI",
     "Prompt Engineering",
     "DALL-E",
-    "LlamaParse",
-    "fast whisper",
-    "Amazon Bedrock",
-    "Anthropic",
-    "Databricks",
-    "MCP",
-    "A2A Protocol",
-    "FAISS",
-    "ChromaDB",
-    "Qdrant",
     "LangChain",
     "Langraph",
     "Crewai",
@@ -60,11 +48,13 @@
     "Agno",
     "Pydantic ai",
     "OpenAI SDK",
-    "CI/CD"
+    "FAISS",
+    "ChromaDB",
+    "Qdrant"
   ],
   "education": [
-    "Bachelor of Technology in Electrical & Electronics Engineering from Lovely Professional University Phagwara, Punjab, India",
-    "Diploma in Electrical & Electronics Engineering from St. Marys College of Engineering & Technology Hyderabad, India"
+    "Bachelor of Technology in Electrical & Electronics Engineering from Lovely Professional University",
+    "Diploma in Electrical & Electronics Engineering from St. Marys College of Engineering & Technology"
   ],
   "experience": [
     "Engineer BI, Exponentia.ai Pvt Ltd, Mumbai IN. Jul 2023 Present. Developed a Retrieval-Augmented Generation (RAG) system combining structured and unstructured data to support interactive Q&A capabilities for enterprise users. Developed scalable data pipelines with embedded monitoring to track model accuracy and system reliability. for multi-modal data ingestion (documents, images, ppt, invoices, video, audio), reducing data processing time by 30% and reduction in data processing time through optimized pipeline architecture and parallel processing techniques. Developed and deployed multi agent supervisor AI agents tailored for individual departments across the organisation, enabling context-aware task execution, intelligent automation, and domain-specific decision support. Maintained strong communication with business stakeholders and cross-functional engineers to prioritize AI initiatives.",
@@ -72,10 +62,15 @@
     "Data Analyst Intern, A for Analytics Pvt Ltd., Chennai IN Jul 2021 Oct 2021. Developed interactive dashboards for inventory tracking and procurement analytics using Power BI, improving visibility into stock levels and supplier performance. Developed models to predict inventory needs, reducing overstock and understock events by 20%. Automated data ingestion and transformation pipelines from multiple sources (Excel, databases) to streamline daily reporting and reduce manual effort by 40%"
   ],
   "job role": [
-    "Data Scientist"
+    "Generative AI Engineer"
   ],
   "other information": [
+    "Certifications: Data Camp Data Analysis with python Neural Networks and Deep Learning (DeepLearning.AI)",
     "Awarded 'Best Team 2024' for leadership and contributions to AI-driven product delivery at Exponentia.ai",
-    "Data Camp Data Analysis with python Neural Networks and Deep Learning (DeepLearning.AI)"
+    "Languages spoken not specified",
+    "Hobbies and interests not specified",
+    "Awards and achievements: 'Best Team 2024'",
+    "Certifications: Data Camp Data Analysis with python Neural Networks and Deep Learning (DeepLearning.AI)",
+    "Soft skills: Communication, Collaboration, Stakeholder Alignment, Documentation, Best Practices, Design Patterns"
   ]
 }
