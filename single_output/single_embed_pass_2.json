@@ -1,0 +1,34 @@
+[
+  {
+    "Alipt Shrivastava_vs_JD_ML_Generative AI Engineer": {
+      "Skills": {
+        "match_pct": 97.22,
+        "resume_value": "Python, LangChain, TensorFlow, PyTorch, Keras, FastAPI, NumPy, Pandas, scikit-learn, Supervised & Unsupervised Learning, Deep Learning, NLP, Generative AI, Large Language Models (LLMs), Langchain, Retrieval-Augmented Generation (RAG), Computer Vision, EDA, Feature Engineering, Vector Search Databases, Azure, AWS, Terraform, Docker, CI/CD, MySQL, PostgreSQL, NoSQL (DynamoDB), Git, Jira, Concourse, Jenkins, FAISS, Pinecone, Chroma, Astra DB, HuggingFace Embeddings, RecursiveCharacterTextSplitter, PEFT, SFT, LangGraph, CrewAI, Zero-Shot ReAct",
+        "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+        "explanation": "High match due to identical skill sets with minor variations in tool usage (e.g., Azure vs AWS)"
+      },
+      "Education": {
+        "match_pct": 95.24,
+        "resume_value": "B.Tech in Computer Science from Madhav Institute of Technology & Science, Gwalior",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "Exact match with minor variation in degree name (Madhav vs reputed)"
+      },
+      "Job Role": {
+        "match_pct": 100,
+        "resume_value": "Machine Learning Engineer",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Identical job titles with slight variations in job description"
+      },
+      "Experience": {
+        "match_pct": 98.12,
+        "resume_value": "Machine Learning Engineer at Fidelity International (2022 - Present) Developed an advanced multi-agent chatbot system leveraging LangChain and multiple state-of-the-art LLMs for robust, general-purpose information retrieval.",
+        "job_description_value": "Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models",
+        "explanation": "High match due to identical experience descriptions with minor variations in wording"
+      },
+      "OverallMatchPercentage": 97.51,
+      "why_overall_match_is_this": "The candidate's skills, education, job role, and experience closely align with the job description, indicating a strong semantic similarity.",
+      "AI_Generated_Estimate_Percentage": 44.12,
+      "embedding_similarity": 0.6524332977796342
+    }
+  }
+]
