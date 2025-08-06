@@ -4,7 +4,7 @@ import json
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict, Any
-import multiprocessing as mp
+
 from dataclasses import dataclass
 from langchain_community.chat_models import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
@@ -16,13 +16,13 @@ class OptimizationConfig:
     model_name: str = "phi3:mini"  # or "qwen2:7b", "mistral:7b-instruct-v0.3"
     
     # Concurrency settings
-    max_workers: int = min(4, mp.cpu_count())  # Adjust based on your hardware
+    max_workers: int = 1  # Sequential processing for slow models
     batch_size: int = 10  # Process resumes in batches
     
     # Model settings for speed
     temperature: float = 0.0  # Deterministic, faster inference
     max_tokens: int = 1024    # Limit output length
-    timeout: int = 30         # Timeout per request
+    timeout: int = 180        # Timeout per request (3 minutes for slow models)
     
     # Caching
     enable_caching: bool = True
@@ -43,8 +43,8 @@ class OptimizedSLMComparator:
                 temperature=config.temperature,
                 seed=42 + i,  # Different seeds for parallel instances
                 timeout=config.timeout,
-                num_ctx=2048,  # Reduced context window for speed
-                num_predict=config.max_tokens,
+                num_ctx=1024,  # Smaller context window for speed
+                num_predict=512,   # Smaller output for speed
                 # Optimization parameters for speed
                 num_thread=2,  # Threads per model instance
                 repeat_penalty=1.0,
@@ -56,26 +56,21 @@ class OptimizedSLMComparator:
     def create_optimized_prompt(self, resume_data: dict, jd_data: dict, resume_filename: str) -> str:
         """Create a more concise, focused prompt for faster processing"""
         
-        # Simplified system prompt focusing on key comparisons
-        system_prompt = """You are an expert resume-JD matcher. Analyze and return ONLY this JSON structure:
+        # Ultra-simplified prompt for faster processing
+        system_prompt = """Match resume to job. Return ONLY this JSON:
 
 {
   "resume_filename": {
-    "Skills": {"match_pct": float, "explanation": "brief"},
-    "Education": {"match_pct": float, "explanation": "brief"}, 
-    "Job Role": {"match_pct": float, "explanation": "brief"},
-    "Experience": {"match_pct": float, "explanation": "brief"},
-    "OverallMatchPercentage": float,
-    "why_overall_match_is_this": "brief explanation"
+    "Skills": {"match_pct": 0, "explanation": "brief"},
+    "Education": {"match_pct": 0, "explanation": "brief"},
+    "Job Role": {"match_pct": 0, "explanation": "brief"},
+    "Experience": {"match_pct": 0, "explanation": "brief"},
+    "OverallMatchPercentage": 0,
+    "why_overall_match_is_this": "brief"
   }
 }
 
-Rules:
-- match_pct: 0-100 scale
-- Focus on semantic similarity
-- Keep explanations under 20 words
-- Strong domain matches get 80%+ scores
-- Return only valid JSON"""
+Rules: match_pct 0-100, explanations under 10 words, return only JSON."""
 
         # Simplified data formatting
         resume_skills = ', '.join(resume_data.get('skill', []))[:200]
@@ -230,7 +225,7 @@ def compare_model_performance():
     models_to_test = [
         "phi3:mini",           # 3.8B - Very fast
         "qwen2:7b",           # 7B - Good balance
-        "mistral:7b-instruct-v0.3-q8_0 ",  # Your current model optimized
+        "mistral:7b-instruct-v0.3-q8_0",  # Your current model optimized
         "llama3.2:3b",        # Alternative 3B model
     ]
     
@@ -294,9 +289,38 @@ def main():
     # Initialize comparator
     comparator = OptimizedSLMComparator(config)
     
-    # Load your data (placeholder - replace with your actual data loading)
-    resumes = []  # Load from your resume_json directory
-    jd_data = {}  # Load from your JD_extraction directory
+    # Load resume data
+    resumes = []
+    resume_dir = "resume_json"
+    if os.path.exists(resume_dir):
+        for filename in os.listdir(resume_dir):
+            if filename.endswith('.json'):
+                filepath = os.path.join(resume_dir, filename)
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        resume_data = json.load(f)
+                        resume_data['filename'] = filename  # Add filename for identification
+                        resumes.append(resume_data)
+                        print(f"✅ Loaded resume: {filename}")
+                except Exception as e:
+                    print(f"❌ Error loading resume {filename}: {e}")
+
+    # Load JD data
+    jd_data = {}
+    jd_dir = "JD_extraction"
+    if os.path.exists(jd_dir):
+        for filename in os.listdir(jd_dir):
+            if filename.endswith('.json'):
+                filepath = os.path.join(jd_dir, filename)
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        jd_content = json.load(f)
+                        jd_data[filename] = jd_content
+                        print(f"✅ Loaded JD: {filename}")
+                except Exception as e:
+                    print(f"❌ Error loading JD {filename}: {e}")
+
+    print(f"\n📊 Data loaded: {len(resumes)} resumes, {len(jd_data)} job descriptions")
     
     # Run optimized comparison
     results = comparator.run_optimized_comparison(resumes, jd_data)

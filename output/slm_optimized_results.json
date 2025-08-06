@@ -1,0 +1,22 @@
+{
+  "resume_filename": {
+    "Skills": {
+      "match_pct": 85,
+      "explanation": "Relevant AI and NLP skills"
+    },
+    "Education": {
+      "match_pct": 70,
+      "explanation": "B.Tech in Civil Engineering"
+    },
+    "Job Role": {
+      "match_pct": 60,
+      "explanation": "Data Scientist"
+    },
+    "Experience": {
+      "match_pct": 90,
+      "explanation": "Data Scientist at ABM"
+    },
+    "OverallMatchPercentage": 76,
+    "why_overall_match_is_this": "Strong AI skills and relevant experience"
+  }
+}
