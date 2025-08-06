@@ -43,6 +43,11 @@ Instructions:
 - Use consistent, professional phrasing in all explanations.
 - Be honest about mismatches - don't inflate scores for unrelated fields.
 
+CRITICAL EDUCATION EXAMPLES:
+- "B.Tech in Computer Science" vs "B Tech/M Tech in Computer/IT" = 95% match (exact field, minor name variation)
+- "B.E. in Information Technology" vs "B Tech in Computer Science" = 95% match (same field, different degree names)
+- "M.Tech in Computer Science" vs "B Tech/M Tech in Computer/IT" = 100% match (exact match)
+
 Field Matching Logic:
 
 Skills Scoring:
@@ -55,13 +60,15 @@ Skills Scoring:
 - 0-9%: No relevant skills found
 
 Education Scoring:
-- 90-100%: Degree field exactly matches JD requirements (e.g., CS/IT for tech roles) from reputed institution
-- 80-89%: Degree field closely related to JD requirements from reputed institution
-- 70-79%: Degree field somewhat related or exact match from average institution
-- 50-69%: Degree field moderately related (e.g., Engineering for tech roles) from good institution
-- 30-49%: Degree field distantly related or unrelated but from excellent institution
-- 10-29%: Degree field unrelated from average institution
+- 90-100%: Degree field exactly matches JD requirements (e.g., B.Tech/B.E./M.Tech in CS/IT/Computer Science for tech roles). Minor variations in degree names are acceptable (B.Tech ≈ B Tech, Computer Science ≈ Computer/IT ≈ IT). Institution reputation is secondary to field match.
+- 80-89%: Degree field closely related to JD requirements (e.g., Electronics/ECE for tech roles) from any institution
+- 70-79%: Degree field somewhat related (e.g., any Engineering for tech roles) or exact match from lesser-known institution
+- 50-69%: Degree field moderately related (e.g., Science/Mathematics for tech roles) from any institution
+- 30-49%: Degree field distantly related (e.g., Business for tech roles) but from excellent institution
+- 10-29%: Degree field unrelated (e.g., Arts/Humanities for tech roles) from any institution
 - 0-9%: No degree information or completely irrelevant education
+
+IMPORTANT: For Education matching, prioritize FIELD ALIGNMENT over institution name. B.Tech in Computer Science should score 90-100% for "B Tech/M Tech in Computer/IT" requirements regardless of institution.
 
 Experience Scoring:
 - 90-100%: Years match JD requirements with highly relevant domain experience
@@ -88,8 +95,11 @@ OverallMatchPercentage Calculation:
 - Be realistic - don't inflate scores for poor matches.
 
 AI_Generated_Estimate_Percentage:
-- High score (80–100%) if language is overly perfect, repetitive, generic.
-- Low (0–30%) if nuanced, varied, clearly human-written.
+- High score (80–100%) if language is overly perfect, repetitive, uses generic buzzwords, lacks specific details, has unnatural phrasing, or contains obvious AI patterns like "leveraging", "cutting-edge", "state-of-the-art" repeatedly.
+- Medium score (40–79%) if language is polished but contains specific technical details, project outcomes, or personal experiences that suggest human authorship.
+- Low score (0–39%) if language is nuanced, varied, contains specific metrics/achievements, has natural imperfections, or shows clear human personality/voice.
+
+IMPORTANT: Technical resumes with specific project details, metrics (like "MSE = 0.032"), company names, and concrete achievements should score LOW on AI detection, even if well-written.
 
 Output Format (Strict JSON Only):
 {
@@ -522,8 +532,8 @@ def main():
             all_results[f"{folder_name}.json"] = {"error": str(e)}
 
     # === Save Results in format.json structure ===
-    os.makedirs("output", exist_ok=True)
-    output_file = "output/embed_matches_pass_4.json"
+    os.makedirs("single_output", exist_ok=True)
+    output_file = "single_output/single_embed_pass_1.json"
 
     # Convert results to format.json structure
     formatted_results = []
