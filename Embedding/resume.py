@@ -6,7 +6,7 @@ from langchain_core.documents import Document
 
 # === Config ===
 RESUME_EXTRACTION_DIR = "../resume_json"
-CHROMA_DB_BASE_DIR = "../chroma_db_resumes"  # Base directory for all resume embeddings
+CHROMA_DB_BASE_DIR = "../chroma_db_resume"  # Base directory for all resume embeddings
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 def load_single_resume(file_path, filename):

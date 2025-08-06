@@ -1,0 +1,34 @@
+[
+  {
+    "Deepakpawar_Sr. Gen Ai_Involead_vs_JD_ML_Generative AI Engineer": {
+      "Skills": {
+        "match_pct": 85,
+        "resume_value": "Python, SQL AI Agent, Conversational AI Agent, Agentic RAG, LangChain, LangGraph, LLM, LLAMA, RAG, BERT, OpenAI, Ollama, GROQ, Transformers, Hugging face, ANN, RNN, LSTM, GRU, Regression, Ensemble Methods, Boosting Methods, Hypothesis Testing, Docker, Git, GitHub Action, DVC, mlflow, Apache Airflow, Dagshub, Grafana, Notebook, Colab, Flask, Streamlit, HTML, CSS, TensorFlow, Keras, PyTorch, NLTK, Spacy, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, MySQL, MongoDB, PostgreSQL, Amazon Web Service, Microsoft Azure",
+        "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+        "explanation": "The candidate has a broad range of skills that overlap with the job description, including Python, machine learning frameworks like TensorFlow and PyTorch, and cloud platforms like AWS and Azure. However, some skills like SQL AI Agent and Conversational AI Agent are not explicitly mentioned in the job description."
+      },
+      "Education": {
+        "match_pct": 95,
+        "resume_value": "Bachelor of Technology: Civil Engineering, 2013-2017. Indian Institute of Technology, Kanpur",
+        "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+        "explanation": "The candidate's education aligns with the job description, as they have a Bachelor of Technology degree in Civil Engineering from a reputable institution."
+      },
+      "Job Role": {
+        "match_pct": 90,
+        "resume_value": "Data Scientist",
+        "job_description_value": "ML Engineer/Generative AI Engineer",
+        "explanation": "Although the candidate's job role is Data Scientist, their skills and experience align closely with the requirements of an ML Engineer/Generative AI Engineer."
+      },
+      "Experience": {
+        "match_pct": 85,
+        "resume_value": "Data Scientist at ABM, Nov22–Present — Developed SQL AI Agent using LangChain and Streamlit for natural language to SQL query conversion. Designed a robust Document Q&A chatbot using LangChain, ChromaDB, and Streamlit utilizing Retrieval Augmented Generation (RAG) techniques to extract relevant information from PDFs by leveraging their text, summaries, metadata. Utilized HuggingFace embedding and OpenAI LLM models for efficient processing. Developed a Machine learning model to convert captcha images into text, achieving an accuracy of 99.95%. The implementation of this project reduced the time required for the voter roll scraping from 5 days to 5 hours. Developed and fine-tuned a BERT based model for text classification and named entity recognition (NER) on a custom dataset, achieving high accuracy and domain-specific performance. Optimized with advanced techniques and deployed the model for real-time NLP applications., Junior Commissioned Officer, at Border Road Organization, 2020-2022 — Served as Junior Commissioned Officer in BRO for improving the road connectivity of inaccessible and remote locations of Sikkim while withstanding the adverse weather and terrain challenge. Designed road pavement structure, culvert and bridges by using software such as AutoCAD, IITPAVE and QGIS.",
+        "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+        "explanation": "The candidate's experience aligns with the job description, as they have hands-on experience in ML domain, developed generative models, and optimized and fine-tuned them. However, some responsibilities like documenting code and providing technical expertise are not explicitly mentioned in the job description."
+      },
+      "OverallMatchPercentage": 85.0,
+      "why_overall_match_is_this": "The candidate's skills, education, and experience align closely with the requirements of the job description, but there are some minor gaps.",
+      "AI_Generated_Estimate_Percentage": 20.0,
+      "embedding_similarity": 0.5476382281504636
+    }
+  }
+]

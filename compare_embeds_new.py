@@ -19,7 +19,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from sklearn.metrics.pairwise import cosine_similarity
 
 # === Configuration ===
-RESUME_EMBEDDINGS_BASE_DIR = "chroma_db_resumes"
+RESUME_EMBEDDINGS_BASE_DIR = "chroma_db_resume"
 JD_EMBEDDINGS_DIR = "chroma_db_jd"
 JD_EXTRACTION_DIR = "JD_extraction"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -516,7 +516,7 @@ def main():
 
     # === Save Results in format.json structure ===
     os.makedirs("output", exist_ok=True)
-    output_file = "output/embed_matches_pass_2.json"
+    output_file = "output/new_match_pass1.json"
 
     # Convert results to format.json structure
     formatted_results = []
