@@ -1,0 +1,9 @@
+
+    "Alipt Shrivastava_vs_JD_ML_Generative AI Engineer": 
+      "Skills": 97.22,
+      "Education": 95.45,
+      "Job Role": 100,
+      "Experience": 98.12,
+      "OverallMatchPercentage": 98.31,
+      "AI_Generated_Estimate_Percentage": 44.12,
+      "embedding_similarity": 0.6524332977796342
