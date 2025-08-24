@@ -1,0 +1,205 @@
+{
+  "Alipt Shrivastava.json": {
+    "Skills": {
+      "match_pct": 0.85,
+      "resume_value": "Python, Terraform, classification models, Conversational AI, Retrieval-Augmented Generation (RAG), LangChain, LLM fine-tuning, LangChain orchestration, lang graph, vector search, prompt engineering, DevOps, MLOPS, AWS (SageMaker, Bedrock), Docker, CI/CD, cloud-based AI deployments, Supervised & Unsupervised Learning, Deep Learning, NLP, Generative AI, Large Language Models (LLMs), Langchain, Retrieval-Augmented Generation (RAG), Computer Vision, EDA, Feature Engineering, vector search databases, Azure, AWS (Lambda, ECS, API Gateway, S3, DynamoDB, RDS, Bedrock, SageMaker), Terraform, Docker, CI/CD, Git, Jira, Concourse CI/CD, Jenkins, MySQL, PostgreSQL, NoSQL (DynamoDB), FAISS, Pinecone, Chroma, Astra DB, HuggingFace, RecursiveCharacterTextSplitter, Zero-Shot ReAct, Few-Shot CoT, LangGraph, CrewAI, PEFT, SFT, CNN, LSTM-RNN, genetic algorithm, Pearsons Correlation Coefficient",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume match 85% of the skills listed in the job description. The resume includes a wider range of specific technologies and tools, while the job description focuses more on generative AI models specifically."
+    },
+    "Education": {
+      "match_pct": 0.92,
+      "resume_value": "B.Tech. in Computer Science from Madhav Institute of Technology & Science",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume matches 92% of the education listed in the job description. The resume includes a specific institution, while the job description is more general in nature."
+    },
+    "Job Role": {
+      "match_pct": 0.83,
+      "resume_value": "Machine Learning Engineer",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job role listed in the resume matches 83% of the job role listed in the job description. The resume includes a more specific title, while the job description is more general."
+    },
+    "Experience": {
+      "match_pct": 0.92,
+      "resume_value": "Developed a Random Forest Classifier model to classify network risk zones, improving security accuracy to 94% and created a xgboost model to recommend firewall deployment with a 96% accuracy rate.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume matches 92% of the experience listed in the job description. The resume includes more specific details about the projects worked on, while the job description is more general."
+    },
+    "OverallMatchPercentage": 0.87,
+    "why_overall_match_is_this": "The overall match percentage is 87%. While there are some differences in the specific technologies and tools mentioned in the resume and job description, the skills, education, job role, and experience listed in both documents have a high degree of overlap.",
+    "AI_Generated_Estimate_Percentage": 0.92
+  },
+  "Deepakpawar_Sr. Gen Ai_Involead.json": {
+    "Skills": {
+      "match_pct": 0.75,
+      "resume_value": "Python, SQL, LangChain, Streamlit, GenAI, Deep Learning, ANN, RNN, LSTM, GRU, Regression, Ensemble Methods, Boosting Methods, Hypothesis Testing, ETL Pipeline, Data Cleaning, Feature Engineering, EDA, Data Pipeline, Amazon Web Service, Microsoft Azure, MySQL, MongoDB, PostgreSQL, TensorFlow, Keras, PyTorch, NLTK, Spacy, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Flask, Git, GitHub Action, DVC, mlflow, Apache Airflow, Dagshub, Grafana, Notebook, Colab, Docker, BERT, OpenAI, Ollama, GROQ, Transformers, Hugging face, MCP Integration, Agentic RAG, Agentic AI",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume and job description are mostly similar. However, there are some differences in the specific tools and frameworks mentioned. The resume mentions LangChain, Streamlit, and Agentic RAG while the job description mentions TensorFlow, PyTorch, and GCP."
+    },
+    "Education": {
+      "match_pct": 0.5,
+      "resume_value": "Bachelor of Technology: Civil Engineering, 2013-2017 . Indian Institute of Technology, Kanpur",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume and job description are different. The resume mentions a Bachelor of Technology degree in Civil Engineering while the job description mentions a Bachelor's or Master's degree in Computer/IT or related fields."
+    },
+    "Job Role": {
+      "match_pct": 0.5,
+      "resume_value": "Data Scientist",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job roles listed in the resume and job description are different. The resume mentions a Data Scientist while the job description mentions an ML Engineer/Generative AI Engineer."
+    },
+    "Experience": {
+      "match_pct": 0.5,
+      "resume_value": "Data Scientist at ABM, Nov22–Present — Developed SQL AI Agent using LangChain and Streamlit for natural language to SQL query conversion., Junior Commissioned Officer at Border Road Organization, 2020-2022 — Served as Junior Commissioned Officer in BRO for improving the road connectivity of inaccessible and remote locations of Sikkim while withstanding the adverse weather and terrain challenge.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members.",
+      "explanation": "The experience listed in the resume and job description are different. The resume mentions experience as a Data Scientist while the job description mentions experience in ML domain with a focus on generative models."
+    },
+    "OverallMatchPercentage": 0.45,
+    "why_overall_match_is_this": "The overall match percentage is low because there are significant differences between the skills, education, and job role listed in the resume and job description.",
+    "AI_Generated_Estimate_Percentage": 0.3
+  },
+  "Devanshi Bordia.json": {
+    "Skills": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Cloud Computing, Google Cloud Platform (GCP), Microsoft Azure, Amazon Web Services (AWS), Data Visualization & Analysis, Tableau, Power BI, Matplotlib, Plotly, Pandas, NumPy, Microsoft Excel, Machine Learning & AI, Machine Learning Algorithms (K-Nearest Neighbors (KNN), BERT, PaLM, LSTM, XGBOOST), Python Libraries for Data Science (Scikit-learn, TensorFlow, Keras), Predictive Analytics, GEN AI, LLM, Huggingface, Programming Languages, Python, R, C, C++, PHP, HTML, Database Management, SQL Server, MySQL, PostgreSQL, Oracle DB, Automation & DevOps Tools, Docker, Kubernetes, Helm, GitHub, Bitbucket, Kafka, J, Data Integration & ETL, ELK Stack (Elasticsearch, Logstash, Kibana), ETL Tools, Apache Airflow, Web Development & Frameworks, Django, Flask, Voice Technology, Alexa Development Kit",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume and job description have some overlap. However, there are also significant differences. The resume mentions a wider range of technologies and frameworks related to data science, web development, automation, and DevOps. On the other hand, the job description focuses specifically on machine learning and generative AI, with a focus on Python libraries and cloud platforms. While both lists include some similarities like Python and cloud computing, the resume has a broader scope that includes various domains of data science and engineering."
+    },
+    "Education": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "M.Tech. (CSE, specialized in Data Science & AI), B.E. (Computer Science Engineering)",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume and job description have some overlap. However, there are also significant differences. The resume mentions two degrees in computer science, one specialized in data science and AI, while the job description requires a bachelor's or master's degree in computer science or a related field from reputed engineering colleges. While both listings mention computer science-related education, the job description has a more specific requirement for a degree in computer science or a related field."
+    },
+    "Job Role": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Machine Learning Engineer",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job roles listed in the resume and job description have some overlap. However, there are also significant differences. The resume mentions a job role as Machine Learning Engineer, while the job description focuses specifically on generative AI engineering. While both listings mention machine learning-related roles, the job description has a more specific focus on generative AI engineering."
+    },
+    "Experience": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Data Scientist at Mahindra Finance, progressing from Deputy Manager to a senior engineering role. Dedicated to driving innovative data initiatives, providing technical leadership, and executing strategic projects to foster a culture of innovation. Demonstrated effective communication and collaboration skills while working within cross-functional teams, leveraging cloud platforms (GCP, AWS, Azure) and data visualization tools (Tableau, Power BI) to improve project outcomes and foster positive team dynamics.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume and job description have some overlap. However, there are also significant differences. The resume mentions a data scientist role at Mahindra Finance with a focus on driving innovative data initiatives and executing strategic projects. On the other hand, the job description focuses specifically on machine learning engineering and generative AI, with a focus on developing and deploying generative models, evaluating their performance, and optimizing them for better results. While both listings mention experience in machine learning, the job description has a more specific focus on generative AI engineering."
+    },
+    "OverallMatchPercentage": 0.8571428571428572,
+    "why_overall_match_is_this": "The overall match percentage is high due to the significant overlap between the resume and job description in terms of skills, education, and experience. However, there are also some notable differences that reflect the specific focus of each listing. The resume mentions a broader range of technologies and domains related to data science, web development, automation, and DevOps, while the job description focuses specifically on machine learning and generative AI engineering. While both listings mention some similarities like Python and cloud computing, the resume has a broader scope that includes various domains of data science and engineering.",
+    "AI_Generated_Estimate_Percentage": 0.8571428571428572
+  },
+  "DivakarKumar_Sr. Gen Ai_Involead.json": {
+    "Skills": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Python, SQL, NoSQL, FastAPI, Postman, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Qlik Sense, Scikit-learn, SpaCy, NLTK, PyTorch, TensorFlow, MySQL, MongoDB, PostgreSQL, Flask, Streamlit, Chainlit, Gradio, CI, CI/CD, Docker, Kubernetes, GitHub, Git, Azure DevOps, MLFlow, AWS, SageMaker, GCP Vertex AI, Azure, Whisper, HuggingFace, Azure OpenAI, Gemini, Mistral, OpenAI, Prompt Engineering, DALL-E, LlamaParse, fast whisper, Amazon Bedrock, Anthropic, Databricks, MCP, A2A Protocol, FAISS, ChromaDB, Qdrant, LangChain, Langraph, Crewai, Google Agent Development Kit, Agno, Pydantic ai, OpenAI SDK",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume match 85.71% of the skills listed in the job description. The resume includes a wide range of programming languages and tools related to AI and data science, while the job description focuses specifically on generative models and machine learning."
+    },
+    "Education": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Bachelor of Technology in Electrical & Electronics Engineering from Lovely Professional University, Diploma in Electrical & Electronics Engineering from St. Marys College of Engineering & Technology",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume matches 85.71% of the education listed in the job description. The resume includes a bachelor's degree in electrical and electronics engineering, while the job description requires a bachelor's or master's degree in computer or IT-related fields from reputed engineering colleges."
+    },
+    "Job Role": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Generative AI Engineer",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job role listed in the resume matches 85.71% of the job role listed in the job description. The resume lists a job role as a generative AI engineer, while the job description lists a job role as an ML engineer or generative AI engineer."
+    },
+    "Experience": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Developed interactive dashboards for inventory tracking and procurement analytics using Power BI, improved visibility into stock levels and supplier performance.",
+      "job_description_value": "Developing generative models, building and deploying generative AI models, evaluating generative AI models, designing state-of-the-art generative models, optimizing and fine-tuning generative models, reducing model latency and resource consumption, developing and implementing robust evaluation metrics, documenting code, models, and methodologies, staying updated with the latest advancements in generative models, researching and developing novel approaches to address specific business challenges, providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume matches 85.71% of the experience listed in the job description. The resume includes experience in developing interactive dashboards for inventory tracking and procurement analytics using Power BI, while the job description focuses on developing generative models and providing technical expertise and guidance to team members."
+    },
+    "OverallMatchPercentage": 0.8571428571428572,
+    "why_overall_match_is_this": "The resume matches 85.71% of the skills, education, job role, and experience listed in the job description. The resume includes a wide range of programming languages and tools related to AI and data science, while the job description focuses specifically on generative models and machine learning.",
+    "AI_Generated_Estimate_Percentage": 0.8571428571428572
+  },
+  "NavyaSinha_Sr.Gen Ai_Involead.json": {
+    "Skills": {
+      "match_pct": 0.75,
+      "resume_value": "Azure Databricks, Deep Learning, Generative AI, Large Language Models, LLMs, Machine Learning, Market Research Analytics, NLP, Python, Sentiment Analysis, Social Media Analytics, Social Media Research, SQL, Text Analytics, Web Scraping",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume and job description are related but not identical. The resume mentions specific tools and frameworks used in data science and analytics, while the job description focuses on generative AI and machine learning engineering."
+    },
+    "Education": {
+      "match_pct": 0.5,
+      "resume_value": "Post Graduate Diploma in Data Science from Manipal Academy of Higher Education, Bachelors of Technology in Computer Science and Engineering from DR. APJ ABDUL KALAM TECHNICAL UNIVERSITY",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume is relevant to the job description, as it includes a diploma in data science and a bachelor's degree in computer science and engineering. However, the job description also requires a master's degree or equivalent."
+    },
+    "Job Role": {
+      "match_pct": 0.75,
+      "resume_value": "Data Scientist",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job role listed in the resume is related to the job description, as both involve data science and engineering. However, the job description specifically mentions generative AI and machine learning engineering."
+    },
+    "Experience": {
+      "match_pct": 0.75,
+      "resume_value": "Data Scientist at Gartner, Oct 2021–Jan 2025 — Led and expanded the Country Localization initiative across key non-English-speaking regions, integrating localized PESTLE insights into sales strategies and contributing to a 5% uplift in regional revenue. Optimized research workflows by transitioning from Python scripts to Azure Databricks and built GenAI pipelines using LLMs (Mistral, OpenAI), LangChain for chunking, and prompt engineering for insights from Talkwalker and LinkedIn APIs. Delivered fast-turnaround GenAI-powered social media insights for 12 research notes, collaborating with the Chief of Research and Knowledge & Insights Leaders across practices like I&O, Software, and AI. Mentored three associates on advanced text analytics, strengthening the teams expertise and also worked on cross team collaboration for company know L&D project that won best project award. Secured the Content Excellence Award for contributing high-quality research supporting talent and event-based quick turnaround projects.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume is relevant to the job description, as it includes experience in data science and analytics. However, the job description specifically mentions generative AI and machine learning engineering."
+    },
+    "OverallMatchPercentage": 0.72,
+    "why_overall_match_is_this": "The resume and job description have some overlap in skills, education, and experience. However, the job description specifically mentions generative AI and machine learning engineering, which are not explicitly mentioned in the resume.",
+    "AI_Generated_Estimate_Percentage": 0.72
+  },
+  "SurajSingh_Sr. Gen Ai_Involead.json": {
+    "Skills": {
+      "match_pct": 0.75,
+      "resume_value": "Python, SQL, Flask, FastAPI, Scikit-learn, Pandas, XGBoost, Langchain, CrewAI, Agile Methodology, Data Visualization, Enterprise Data Analytics, AWS, Docker, AWS Bedrock, Agentic AI, Autonomous Agents, Classification Models, Regression Modeling, Time-Series Forecasting, Generative AI, Retrieval Augmented Generation (RAG), Large Language Models (LLM)",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume and job description overlap by 75%. The resume includes a broader range of technologies related to AI/ML, data science, and engineering, while the job description focuses specifically on generative models and ML engineering. However, both lists share common technologies such as Python, AWS, and Azure."
+    },
+    "Education": {
+      "match_pct": 0.5,
+      "resume_value": "Bachelor of Technology from PDM College of Engineering, Class XII from CBSE, Class X from CBSE",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume and job description overlap by 50%. The resume mentions a bachelor's degree in technology, while the job description requires a bachelor's or master's degree in computer science or a related field. However, both listings suggest that a strong educational background in engineering is preferred."
+    },
+    "Job Role": {
+      "match_pct": 0.5,
+      "resume_value": "Data Scientist",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job roles listed in the resume and job description overlap by 50%. The resume mentions a data scientist role, while the job description focuses specifically on ML engineering and generative AI. However, both listings suggest that the candidate should have experience in data science or a related field."
+    },
+    "Experience": {
+      "match_pct": 0.75,
+      "resume_value": "Data Scientist at To The New | 11/2022 Present — Led AI/ML model development and Generative AI (GenAI) applications, delivering scalable solutions using LLMs, RAG, forecasting, and classification models across cloud infrastructure, finance, compliance, and operational domains., QA Automation Engineer at Indus Valley Partners | 05/2020 11/2022 — Transitioned from Quality Assurance to Data Science within fintech data platforms, ensuring data integrity and system stability before designing predictive models and analytical dashboards for financial decision-making., Data Scientist at Newi Intelligent Assistant | 01/2025 Present — Developed a GenAI-powered enterprise assistant using LLM-based autonomous agents to streamline operations across HR, IT, and Compliance.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume and job description overlap by 75%. The resume mentions experience in data science, AI/ML model development, and generative AI applications. The job description focuses specifically on ML engineering and generative models, with a focus on developing and deploying generative AI models. However, both listings suggest that the candidate should have hands-on experience in the ML domain."
+    },
+    "OverallMatchPercentage": 0.72,
+    "why_overall_match_is_this": "The overall match percentage is 72%. The resume and job description share some overlap in skills, education, job role, and experience. However, there are significant differences in the specific technologies and responsibilities listed in each document.",
+    "AI_Generated_Estimate_Percentage": 0.75
+  },
+  "VishalGahlot_Sr.Gen Ai_Involead.json": {
+    "Skills": {
+      "match_pct": 0.8571428571428572,
+      "resume_value": "Python, NumPy, Pandas, SciPy, Scikit-learn, Statsmodels, SQL, R, Bash, Git/GitHub, TensorFlow, Keras, PyTorch, Scikit-learn, XGBoost, LightGBM, CatBoost, spaCy, NLTK, Hugging Face, Tableau, Power BI, Google Data Studio, Matplotlib, Seaborn, Plotly, Dash, Bokeh, Excel Charts, SQL Server, MySQL, PostgreSQL, SQLite, MongoDB, Oracle, Apache Spark, PySpark, Spark SQL, Docker, Airflow, MLflow, Flask, FastAPI, Streamlit, Jupyter Notebook, CI/CD, REST APIs, VS Code, Linux/Unix Command Line",
+      "job_description_value": "Python, TensorFlow, PyTorch, AWS, Azure, GCP",
+      "explanation": "The skills listed in the resume and job description have a high overlap (85.71%). The resume includes a broader range of technologies related to data science and machine learning, while the job description focuses specifically on generative models and their development."
+    },
+    "Education": {
+      "match_pct": 0.6428571428571429,
+      "resume_value": "B.sc,(Computer Science) IGNOU (2015-2018), Central Board of Secondary Education (CBSE), Higher Secondary (10+2) (2014), Advanced Certification in Data Science and Decision Science, IIT Delhi (2024 - Present), Coding Invaders, Data Science Certification, Arena Animation, Web Development (2015-2018)",
+      "job_description_value": "B Tech/M Tech in Computer/IT or related field from reputed engineering colleges",
+      "explanation": "The education listed in the resume and job description have a moderate overlap (64.29%). The resume includes various educational qualifications, including a bachelor's degree in computer science and an advanced certification in data science. The job description requires a bachelor's or master's degree in computer science or a related field from a reputed engineering college."
+    },
+    "Job Role": {
+      "match_pct": 0.9142857142857143,
+      "resume_value": "Machine Learning Engineer",
+      "job_description_value": "ML Engineer/Generative AI Engineer",
+      "explanation": "The job roles listed in the resume and job description have a high overlap (91.43%). The resume lists the job role as Machine Learning Engineer, while the job description seeks an ML Engineer/Generative AI Engineer."
+    },
+    "Experience": {
+      "match_pct": 0.7142857142857143,
+      "resume_value": "Machine Learning Engineer at Pace Developers LLM | October 2024 Present — Building predictive models to identify potential project delays using historical and real-time construction data. Applying computer vision techniques to detect cracks and material defects from construction site images and videos. Analyzing equipment usage patterns with ML algorithms to reduce idle time and improve resource efficiency. Developing interactive dashboards with Power BI to support real-time decision-making on active construction sites. Collaborating with engineers and project teams to integrate data-driven insights into daily operations and planning., Jr. ML Engineer at Feynn Labs | feb 2024- October 2024 — Developed and fine-tuned ML models for real-world applications. Preprocessed and analyzed large datasets using Python, Pandas, and NumPy. Built and optimized deep learning models using TensorFlow, Keras & PyTorch. Deployed ML models using Flask & FastAPI. Collaborated with cross-functional teams to integrate AI solutions. Big Data & Cloud: Apache Spark (PySpark, Spark SQL), Hadoop (HDFS, MapReduce), Data Warehousing (Redshift, Snowflake, BigQuery), AWS (S3, EC2, Lambda, RDS), Azure (Data Lake, Synapse), Google Cloud Platform (GCS, BigQuery), Kafka. Tools & Deployment: Jupyter Notebook, Excel (Power Query, Pivot Tables), Flask, FastAPI, Streamlit, Docker, Airflow, MLflow, Git, CI/CD, REST APIs, VS Code, Linux/Unix Command Line.",
+      "job_description_value": "3 - 6 years of hands-on experience in ML domain, Developing generative models, Building and deploying generative AI models, Evaluating generative AI models, Designing state-of-the-art generative models, Optimizing and fine-tuning generative models, Reducing model latency and resource consumption, Developing and implementing robust evaluation metrics, Documenting code, models, and methodologies, Staying updated with the latest advancements in generative models, Researching and developing novel approaches to address specific business challenges, Providing technical expertise and guidance to team members",
+      "explanation": "The experience listed in the resume and job description have a moderate overlap (71.43%). The resume includes various experiences related to machine learning engineering, data science, and web development. The job description seeks an ML Engineer/Generative AI Engineer with hands-on experience in developing generative models and deploying them."
+    },
+    "OverallMatchPercentage": 0.8372142857142857,
+    "why_overall_match_is_this": "The overall match percentage is high (83.72%), indicating that the skills, education, job role, and experience listed in the resume have a significant overlap with those required for the job description.",
+    "AI_Generated_Estimate_Percentage": 0.9142857142857143
+  }
+}
