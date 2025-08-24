@@ -1,0 +1,31 @@
+{
+  "skill": [
+    "Python",
+    "LangChain",
+    "TensorFlow",
+    "PyTorch",
+    "Keras",
+    "FastAPI",
+    "NumPy",
+    "Pandas",
+    "scikit-learn"
+  ],
+  "education": [
+    "B.Tech., Madhav Institute of Technology & Science, Gwalior (2018 - 2022)",
+    "Degree: Bachelor of Technology (B.Tech.) CGPA: 7.84",
+    "Relevant Coursework: Machine Learning, AI, Cloud Computing, OOPS, DBMS, Data Structures & Algorithms"
+  ],
+  "experience": [
+    "ML Engineer | Fidelity International (2022 - Present) . Firewall Automation System Implemented a Random Forest Classifier model to classify network risk zones, improving security accuracy to 94% and created an xgboost model for firewall deployment with a 96% accuracy rate. Automated firewall rule generation reducing manual effort by 80% and deployment time by 60%. Integrated continuous monitoring & feedback loops retraining models.",
+    "Conversational AI-Powered Search & RAG Chatbot Developed an advanced multi-agent chatbot system leveraging LangChain with multiple LLMs for robust, general-purpose information retrieval. Utilized vector databases and HuggingFace embeddings to support context-aware conversations across enterprise knowledge bases.",
+    "CISCO-ACI Network Configuration Built a software tool for automating Cisco-aci switch configurations enhancing network efficiency by 30%."
+  ],
+  "job role": [
+    "AI/ML Developer"
+  ],
+  "other information": [
+    ". Skills & Technologies .",
+    "Certifications: AWS Certified Cloud Practitioner, Qualified GATE 2022.",
+    "Achievements: Attended Machine Learning Bootcamp iNeuron and Generative AI with langchain courses."
+  ]
+}

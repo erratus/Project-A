@@ -2,21 +2,16 @@ import os
 import json
 import re
 import requests
-import fitz  
-from docx import Document   
+import fitz
+from docx import Document
 from dotenv import load_dotenv
-from huggingface_hub import InferenceClient
-import dotenv
 
-# Ensure the environment variables are loaded
-dotenv.load_dotenv()
-HF_TOKEN = os.getenv("hf_token")
 
 class LLMResumeParser:
-    def __init__(self, model_name="meta-llama/Llama-3.1-8B-Instruct"):
+    def __init__(self, model_name="phi3:3.8b", base_url="http://localhost:11434"):
         load_dotenv()
         self.model = model_name
-        self.client = InferenceClient(model=self.model, token=HF_TOKEN)
+        self.base_url = base_url.rstrip("/")
         self.system_prompt = self._build_system_prompt()
 
     def _build_system_prompt(self):
@@ -27,29 +22,18 @@ Your task is to extract structured data from unstructured resume text into exact
 
 1. "skill"
 Include only hard technical skills such as programming languages, frameworks, libraries, software tools, platforms, cloud services, or technical methodologies.
- Do NOT include certifications, soft skills, role descriptions, degrees, or company names.
- Examples: Python, TensorFlow, SQL, AWS, Docker, CI/CD, Agile, Power BI
+Do NOT include certifications, soft skills, role descriptions, degrees, or company names.
+Examples: Python, TensorFlow, SQL, AWS, Docker, CI/CD, Agile, Power BI
 
 2. "education"
 Include only formal academic qualifications such as:
-
-Schooling (10th, 12th)
-
-Undergraduate (e.g., B.Tech, BSc)
-
-Postgraduate (e.g., M.Tech, MBA, MSc)
-
-Doctorate (PhD)
+- Schooling (10th, 12th)
+- Undergraduate (e.g., B.Tech, BSc)
+- Postgraduate (e.g., M.Tech, MBA, MSc)
+- Doctorate (PhD)
 
 Each item must contain only the degree/program and institution/school/college name.
- Do NOT include years, CGPA, certifications, online courses, bootcamps, or platforms like Coursera.
- Examples:
-
-B.Tech in Computer Science from IIT Bombay
-
-10th from Delhi Public School
-
-MBA from IIM Ahmedabad
+Do NOT include years, CGPA, certifications, online courses, bootcamps, or platforms like Coursera.
 
 3. "experience"
 Each experience must be written as a single plain text string. Do not return objects or structured fields. Combine job title, company, location, and responsibilities into a single string, separated by punctuation.
@@ -62,36 +46,21 @@ Do not return arrays of objects or nested fields.
 
 4. "job role"
 Include only one specific job title that best represents the candidate’s most recent or primary designation.
- Do NOT include multiple titles or composite roles.
- Example:
-
-Data Scientist
+Do NOT include multiple titles or composite roles.
 
 5. "other information"
 Include all remaining information that does not fit the above four sections, such as:
-
-Certifications
-
-Soft skills
-
-Languages spoken
-
-Hobbies and interests
-
-Awards and achievements
-
-Relocation or career objectives
-
-Extracurriculars or personal statements
+- Certifications
+- Soft skills
+- Languages spoken
+- Hobbies and interests
+- Awards and achievements
+- Relocation or career objectives
+- Extracurriculars or personal statements
 
 Certifications from any provider (e.g., AWS, Coursera, Google) should be included here.
 
- Output Format
-Return exactly this structure:
-
-json
-Copy
-Edit
+Output Format:
 {
   "skill": [],
   "education": [],
@@ -99,28 +68,19 @@ Edit
   "job role": [],
   "other information": []
 }
- Strict Rules
-Each section must be a flat list of plain text strings.
 
-Do NOT return nested JSON or arrays of objects.
-
-Do NOT infer or hallucinate data not explicitly in the text.
-
-Do NOT wrap the JSON in an array or include any other explanation.
-
-Do NOT include the prompt or label the JSON.
-
-Replace all newlines (\n, \\n) and tab characters (\t, \\t) with \\n and \\t inside values.
-
-All five keys must always be present — even if their lists are empty.
-
-Each value must appear in only one section.
-Do NOT return nested JSON or key-value objects inside any section — each entry must be a plain string.
-"job role" must contain only one title — if more are present, choose the most representative one.
+Strict Rules:
+- Each section must be a flat list of plain text strings.
+- Do NOT return nested JSON or arrays of objects.
+- Do NOT infer or hallucinate data not explicitly in the text.
+- Do NOT wrap the JSON in an array or include any other explanation.
+- Replace all newlines (\n, \\n) and tab characters (\t, \\t) with \\n and \\t inside values.
+- All five keys must always be present — even if their lists are empty.
+- Each value must appear in only one section.
+- "job role" must contain only one title — if more are present, choose the most representative one.
 '''
 
     def clean_text(self, text: str) -> str:
-        # Clean and normalize text for LLM input
         text = text.replace('\n', '. ').replace('\r', '')
         text = text.replace('\\', ' or ')
         text = re.sub(r'[^\x00-\x7F]+', '', text)
@@ -129,21 +89,20 @@ Do NOT return nested JSON or key-value objects inside any section — each entry
 
     def extract_fields(self, resume_text: str) -> dict:
         cleaned_text = self.clean_text(resume_text)
-        
+
         try:
-            
-            messages = [
-                {"role": "system", "content": self.system_prompt},
-                {"role": "user", "content": cleaned_text}
-            ]
-            
-            response = self.client.chat_completion(
-                messages=messages,
-                max_tokens=None
-            )
-            
-            # Extract the content from the response
-            raw_output = response.choices[0].message.content.strip()
+            payload = {
+                "model": self.model,
+                "messages": [
+                    {"role": "system", "content": self.system_prompt},
+                    {"role": "user", "content": cleaned_text}
+                ],
+                "stream": False
+            }
+
+            response = requests.post(f"{self.base_url}/api/chat", json=payload)
+            response.raise_for_status()
+            raw_output = response.json()["message"]["content"].strip()
 
             print("\n Raw LLM Output:\n", raw_output)
 
@@ -161,7 +120,6 @@ Do NOT return nested JSON or key-value objects inside any section — each entry
                 print(" JSON decoding failed:", e)
                 return {}
 
-            # Ensure all required keys are present
             required_keys = ["skill", "education", "experience", "job role", "other information"]
             for key in required_keys:
                 if key not in result or not isinstance(result[key], list):
@@ -219,7 +177,6 @@ Do NOT return nested JSON or key-value objects inside any section — each entry
             return ""
 
 
-#  Clear old JSON files  
 def clear_json_folder(folder_path):
     if os.path.exists(folder_path):
         for filename in os.listdir(folder_path):
@@ -234,7 +191,6 @@ def clear_json_folder(folder_path):
         os.makedirs(folder_path)
 
 
-#  Main resume parsing logic
 def process_resumes(input_path: str, output_dir: str):
     parser = LLMResumeParser()
 
@@ -259,9 +215,7 @@ def process_resumes(input_path: str, output_dir: str):
         parser.save_to_json(parsed, output_dir, file_path)
 
 
-# Uncomment this block to run directly
 if __name__ == "__main__":
     input_path = "../resumes"
-    output_path = "../resume_json"
+    output_path = "../resume_jsons"
     process_resumes(input_path, output_path)
- 
